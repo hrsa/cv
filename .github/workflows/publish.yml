@@ -38,8 +38,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+      - name: Checkout 'pages' branch
+        uses: actions/checkout@v4
+        with:
+          ref: 'pages'
+
+      - run: rm -rf *
 
       - name: Download build artifacts
         uses: actions/download-artifact@v4
@@ -47,6 +51,7 @@ jobs:
           name: github-pages
           path: ./dist
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Move files
+        run: |
+          cp -r dist/* .
+          rm -rf dist
