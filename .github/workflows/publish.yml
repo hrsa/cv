@@ -1,70 +1,14 @@
-name: Deploy with GitHub Pages
-
-on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
+name: Build Vue
+on: [push]
 jobs:
-  build:
+  build_vue:
     runs-on: ubuntu-latest
+    name: Build Vue
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v4.0.1
+      - uses: actions/checkout@v4
+      - id: Build-Vue
+        uses: xRealNeon/VuePagesAction@1.0.1
         with:
-          node-version: latest
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build
-        run: npm run build
-
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: page
-          path: ./dist
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Checkout 'page' branch
-        uses: actions/checkout@v4
-        with:
-          ref: 'page'
-
-      - run: rm -rf *
-
-      - name: Download build artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: page
-          path: ./dist
-
-      - name: Move files
-        run: |
-          cp -r dist/* .
-          rm -rf dist
-
-      - name: Set up Git user
-        run: |
-          git config user.name "Anton Cherednichenko"
-          git config user.email "anton@anton.eco"
-
-      - name: Commit and push
-        env:
-          CV_TOKEN: ${{ secrets.CV_TOKEN }}
-        run: |
-          git add -A
-          git commit -m "Update page branch [skip ci]" || exit 0
-          git push https://${CV_TOKEN}@github.com/hrsa/cv.git origin HEAD:page
+          username: 'hrsa'
+          reponame: 'cv'
+          token: ${{ secrets.GITHUB_TOKEN }}
