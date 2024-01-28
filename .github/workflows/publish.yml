@@ -65,4 +65,4 @@ jobs:
         run: |
           git add -A
           git commit -m "Update pages branch [skip ci]" || exit 0
-          git push origin HEAD:pages
+          git push origin HEAD:page
