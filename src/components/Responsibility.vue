@@ -40,7 +40,7 @@ const emit = defineEmits(['selectResponsibility']);
     <img
         v-else
         :alt="responsibility.type"
-        :src="`/${responsibility.type}.webp`" class="h-8"/>
+        :src="getImage(`/${type}.webp`)" class="h-8"/>
     <p>{{ responsibility.name }}</p>
   </div>
 </template>
