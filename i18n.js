@@ -15,7 +15,7 @@ i18next
                     jobs: [
                         {
                             id: 1,
-                            logo: 'logo/impactmaker.webp',
+                            logo: '/logo/impactmaker.webp',
                             dates: '2023 - Present',
                             company: 'ImpactMaker.ai',
                             title: 'CTO, Co-founder',
@@ -40,7 +40,7 @@ i18next
                         },
                         {
                             id: 2,
-                            logo: 'logo/globedreamers.webp',
+                            logo: '/logo/globedreamers.webp',
                             dates: '2019 - Present',
                             company: 'GlobeDreamers',
                             title: 'COO/CTO, Co-founder',
@@ -260,7 +260,7 @@ i18next
                         {
                             id: 3,
                             logo:
-                                'logo/expo.webp',
+                                '/logo/expo.webp',
                             dates:
                                 '2017 - 2019',
                             company:
@@ -310,7 +310,7 @@ i18next
                         {
                             id: 4,
                             logo:
-                                'logo/trade-delegation.webp',
+                                '/logo/trade-delegation.webp',
                             dates:
                                 '2012 - 2017',
                             company:
@@ -398,7 +398,7 @@ i18next
                         {
                             id: 5,
                             logo:
-                                'logo/trade-delegation.webp',
+                                '/logo/trade-delegation.webp',
                             dates:
                                 '2010 - 2012',
                             company:
@@ -464,7 +464,7 @@ i18next
                         {
                             id: 6,
                             logo:
-                                'logo/bearingpoint.webp',
+                                '/logo/bearingpoint.webp',
                             dates:
                                 '2009 - 2010',
                             company:
@@ -500,7 +500,7 @@ i18next
                         {
                             id: 7,
                             logo:
-                                'logo/uralsib.webp',
+                                '/logo/uralsib.webp',
                             dates:
                                 '2007 - 208',
                             company:
@@ -536,27 +536,27 @@ i18next
                                 {
                                     name: 'ESSEC Business School',
                                     city: 'Paris',
-                                    logo: 'logo/essec.webp',
+                                    logo: '/logo/essec.webp',
                                 },
                                 {
                                     name: 'Mannheim Business School',
                                     city: 'Mannheim',
-                                    logo: 'logo/mbs.webp',
+                                    logo: '/logo/mbs.webp',
                                 },
                                 {
                                     name: 'Georgetown University\'s McCourt School of Public Policy',
                                     city: 'Washington DC',
-                                    logo: 'logo/mcspp.webp',
+                                    logo: '/logo/mcspp.webp',
                                 },
                                 {
                                     name: 'Waseda Business School',
                                     city: 'Tokyo',
-                                    logo: 'logo/waseda.webp',
+                                    logo: '/logo/waseda.webp',
                                 },
                                 {
                                     name: 'ESSEC Asia-Pacific',
                                     city: 'Singapore',
-                                    logo: 'logo/essec.webp',
+                                    logo: '/logo/essec.webp',
                                 },
                             ],
                         },
@@ -567,7 +567,7 @@ i18next
                                 {
                                     name: 'Écoles de Saint-Cyr Coëtquidan',
                                     city: 'Guer',
-                                    logo: 'logo/stcyr.webp',
+                                    logo: '/logo/stcyr.webp',
                                 },
                             ],
                         },
@@ -578,7 +578,7 @@ i18next
                                 {
                                     name: 'Higher School of Economics',
                                     city: 'Moscow',
-                                    logo: 'logo/hse.webp',
+                                    logo: '/logo/hse.webp',
                                 },
                             ],
                         },

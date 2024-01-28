@@ -21,6 +21,10 @@ const handleSelectCompany = (id) => {
     selectedCompany.value.push(id);
   }
 }
+
+const getLogo = (logo) => {
+  return window.location + logo;
+}
 </script>
 
 <template>
@@ -39,7 +43,7 @@ const handleSelectCompany = (id) => {
       >
         <div class="m-auto flex flex-col text-center">
           <img class="m-auto rounded-full p-1 size-20"
-               :src="job.logo" :alt="job.company"/>
+               :src="getLogo(job.logo)" :alt="job.company"/>
           <div class="text-lg">{{ job.dates }}</div>
         </div>
         <div class="flex flex-col justify-center">
