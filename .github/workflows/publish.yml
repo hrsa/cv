@@ -47,6 +47,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          email: 'anton@anton.eco'
-          build_dir: 'dist'
-          commit_message: 'deploy pages'
+          email: anton@anton.eco
+          commit_message: deploy pages
