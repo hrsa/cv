@@ -41,7 +41,7 @@ jobs:
       - name: Checkout 'pages' branch
         uses: actions/checkout@v4
         with:
-          ref: 'main/pages'
+          ref: 'main/page'
 
       - run: rm -rf *
 
