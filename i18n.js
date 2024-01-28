@@ -334,7 +334,7 @@ i18next
                                     },
                                     {
                                         id: 2,
-                                        name: 'Strategic Partnerships',
+                                        name: 'Strategic partnerships',
                                         type: 'business',
                                         description: [
                                             {
@@ -357,6 +357,17 @@ i18next
                                     },
                                     {
                                         id: 3,
+                                        name: 'Network development',
+                                        type: 'business',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Creation of a network of partners in France and Russia',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 4,
                                         name: '86 new international contracts signed',
                                         type: ['business', 'success'],
                                         description: [
@@ -371,24 +382,13 @@ i18next
                                         ],
                                     },
                                     {
-                                        id: 4,
+                                        id: 5,
                                         name: 'Inter-ministry lobbying',
                                         type: ['business', 'success'],
                                         description: [
                                             {
                                                 icon: 'business',
                                                 content: 'Successful lobbying and signature of the Franco-Russian cooperation strategy in the innovations domain',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 5,
-                                        name: 'Network development',
-                                        type: 'business',
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Creation of a network of partners in France and Russia',
                                             },
                                         ],
                                     },
