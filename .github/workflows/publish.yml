@@ -55,3 +55,14 @@ jobs:
         run: |
           cp -r dist/* .
           rm -rf dist
+
+      - name: Set up Git user
+        run: |
+          git config user.name "Anton Cherednichenko"
+          git config user.email "anton@anton.eco"
+
+      - name: Commit and push
+        run: |
+          git add -A
+          git commit -m "Update pages branch [skip ci]" || exit 0
+          git push origin HEAD:pages
