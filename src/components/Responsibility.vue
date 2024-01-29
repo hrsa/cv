@@ -1,6 +1,5 @@
 <script setup>
 import {computed} from 'vue'
-import {getImage} from "../globals.js";
 
 const props = defineProps({
   responsibility: {
@@ -35,12 +34,12 @@ const emit = defineEmits(['selectResponsibility']);
           v-for="(type, index) in responsibility.type"
           :key="index"
           :alt="type"
-          :src="getImage(`${type}.webp`)" class="h-8 mt-1 sm:mt-0"/>
+          :src="`/${type}.webp`" class="h-8 mt-1 sm:mt-0"/>
     </div>
     <img
         v-else
         :alt="responsibility.type"
-        :src="getImage(`${responsibility.type}.webp`)" class="h-8 mt-1 sm:mt-0"/>
+        :src="`/${responsibility.type}.webp`" class="h-8 mt-1 sm:mt-0"/>
     <p class="text-xl sm:text-base">{{ responsibility.name }}</p>
   </div>
 </template>

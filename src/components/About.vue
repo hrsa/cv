@@ -1,6 +1,5 @@
 <script setup>
 import {useTranslation} from "i18next-vue";
-import {getImage} from "../globals.js";
 
 const {i18next, t} = useTranslation();
 
@@ -23,7 +22,7 @@ const diplomas = t('diplomas', {returnObjects: true});
         <div v-for="school in diploma.school" class="m-auto flex place-content-center text-center font-bold">
           <div class="grid grid-cols-[5rem_12rem] gap-1 max-w-[90%]">
             <img :alt="school.name"
-                 :src="getImage(school.logo)" class="m-auto rounded-full p-1 size-20"/>
+                 :src="`/${school.logo}`" class="m-auto rounded-full p-1 size-20"/>
             <p class="place-self-center">{{ school.name }} ({{ school.city }})</p>
           </div>
         </div>

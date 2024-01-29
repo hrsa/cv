@@ -1,7 +1,4 @@
 <script setup>
-
-import {getImage} from "../globals.js";
-
 const props = defineProps({
   title: {
     type: String,

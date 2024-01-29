@@ -1,6 +1,5 @@
 <script setup>
 import {useTranslation} from "i18next-vue";
-import {getImage} from "../globals.js";
 
 const emit = defineEmits(['changeTab']);
 

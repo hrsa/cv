@@ -3,7 +3,6 @@ import {ref} from 'vue'
 import {useTranslation} from "i18next-vue";
 import Responsibility from "./Responsibility.vue";
 import Popup from "./Popup.vue";
-import {getImage} from "../globals.js";
 
 const { i18next, t } = useTranslation();
 const selectedCompany = ref([1, 2, 3, 4, 5, 6, 7]);
@@ -42,7 +41,7 @@ const handleSelectCompany = (id) => {
       >
         <div class="m-auto flex flex-col text-center">
           <img class="m-auto rounded-full p-1 size-20"
-               :src="getImage(job.logo)" :alt="job.company"/>
+               :src="`/${job.logo}`" :alt="job.company"/>
           <div class="text-lg">{{ job.dates }}</div>
         </div>
         <div class="flex flex-col justify-center">
