@@ -12,6 +12,128 @@ i18next
                 translation: {
                     firstname: 'Anton',
                     lastname: 'Cherednichenko',
+                    post: 'CTO/COO, Co-founder',
+                    links: [
+                        {
+                            name: 'LinkedIn',
+                            url: 'https://www.linkedin.com/in/hrsart/',
+                            icon: '/linkedin.webp',
+                        },
+                        {
+                            name: 'GitHub',
+                            url: 'https://www.github.com/hrsa/',
+                            icon: '/github.webp',
+                        },
+                        {
+                            name: 'Email',
+                            url: 'mailto:anton@anton.eco',
+                            icon: '/email.webp',
+                        },
+                        {
+                            name: 'Download CV',
+                            url: 'https://anton.eco/cv/fr_cv_anton_cherednichenko.pdf',
+                            icon: '/download.webp',
+                        },
+                    ],
+                    experience: 'Experience',
+                    education: 'Education',
+                    skills: 'Skills',
+                    about: {
+                        tech: {
+                            title: 'Tech stack',
+                            languages: ['PHP', 'JavaScript', 'Python', 'SQL', 'HTML', 'CSS'],
+                            love: ['Tinkerwell', 'Ray', 'Expose'],
+                            frameworks: ['Laravel', 'Livewire', 'Vue.js', 'Tailwind'],
+                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'OpenServer'],
+                            crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
+                            sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
+                            adobe: ['Photoshop', 'Illustrator', 'Lightroom', 'Premiere', 'After Effects'],
+                        },
+                        languages: {
+                            title: 'Languages',
+                            list: [
+                                {
+                                    name: 'English',
+                                    level: 4,
+                                    mastery: 'Native',
+                                    icon: '/flags/gb.svg',
+                                },
+                                {
+                                    name: 'French',
+                                    level: 4,
+                                    mastery: 'Native',
+                                    icon: '/flags/fr.svg',
+                                },
+                                {
+                                    name: 'Russian',
+                                    level: 4,
+                                    mastery: 'Native',
+                                    icon: '/flags/ru.svg',
+                                },
+                                {
+                                    name: 'Italian',
+                                    level: 3,
+                                    mastery: 'Intermediate',
+                                    icon: '/flags/it.svg',
+                                },
+                                {
+                                    name: 'Spanish',
+                                    level: 3,
+                                    mastery: 'Intermediate',
+                                    icon: '/flags/es.svg',
+                                },
+                                {
+                                    name: 'German',
+                                    level: 3,
+                                    mastery: 'Intermediate',
+                                    icon: '/flags/de.svg',
+                                },
+                                {
+                                    name: 'Portuguese',
+                                    level: 2,
+                                    mastery: 'Elementary',
+                                    icon: '/flags/pt.svg',
+                                },
+                                {
+                                    name: 'Dutch',
+                                    level: 2,
+                                    mastery: 'Elementary',
+                                    icon: '/flags/nl.svg',
+                                },
+                                {
+                                    name: 'Japanese',
+                                    level: 1,
+                                    mastery: 'Beginner',
+                                    icon: '/flags/jp.svg',
+                                },
+                                {
+                                    name: 'Arabic',
+                                    level: 1,
+                                    mastery: 'Beginner',
+                                    icon: '/flags/arab.svg',
+                                },
+                                {
+                                    name: 'Greek',
+                                    level: 1,
+                                    mastery: 'Beginner',
+                                    icon: '/flags/gr.svg',
+                                },
+                                {
+                                    name: 'Icelandic',
+                                    level: 1,
+                                    mastery: 'Beginner',
+                                    icon: '/flags/is.svg',
+                                },
+                                {
+                                    name: 'Lithuanian',
+                                    level: 1,
+                                    mastery: 'Beginner',
+                                    icon: '/flags/lt.svg',
+                                },
+                            ],
+                        },
+
+                    },
                     jobs: [
                         {
                             id: 1,

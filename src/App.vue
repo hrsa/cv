@@ -4,7 +4,7 @@ import {useTranslation} from "i18next-vue";
 import Menu from "./components/Menu.vue";
 import Experience from "./components/Experience.vue";
 import Education from "./components/Education.vue";
-import About from "./components/About.vue";
+import Skills from "./components/Skills.vue";
 
 const { i18next, t } = useTranslation();
 const currentTab = ref('experience');
@@ -16,7 +16,7 @@ const currentTab = ref('experience');
     <div class="w-full flex flex-col">
         <Experience v-if="currentTab === 'experience'"/>
         <Education v-if="currentTab === 'education'"/>
-        <About v-if="currentTab === 'about'"/>
+        <Skills v-if="currentTab === 'skills'"/>
     </div>
   </div>
 </template>
