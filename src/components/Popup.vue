@@ -33,7 +33,7 @@ const emit = defineEmits(['closePopup'])
             <div class="mt-2 flex flex-col gap-6 text-left text-lg">
             <template v-for="item in props.content">
               <div class="flex gap-3" v-if="item.icon !== 'sublist'">
-                <img :src="getImage(`/${item.icon}.webp`)" class="h-5 sm:h-8 place-self-start shadow-xl" :alt="item.icon"/>
+                <img :src="`/${item.icon}.webp`" class="h-5 sm:h-8 place-self-start shadow-xl" :alt="item.icon"/>
                 <p>{{ item.content }}</p>
               </div>
               <ul class="list-disc pl-16" v-else v-html="item.content"></ul>

@@ -33,7 +33,7 @@ a:hover {
 }
 
 html {
-  background-image: url('/bg2.webp');
+  background-image: url('/background.webp');
   background-size: cover;
   background-attachment: fixed;
 }
