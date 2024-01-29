@@ -28,20 +28,20 @@ const emit = defineEmits(['selectResponsibility']);
 <template>
   <div
       :class="bgColor"
-      class="rounded-2xl py-1 px-3 cursor-pointer bg-opacity-55 backdrop-blur-xl hover:bg-green-600 inline-flex gap-4 items-center"
+      class=" grid grid-cols-1 rounded-2xl py-1 px-3 cursor-pointer bg-opacity-55 backdrop-blur-xl hover:bg-green-600 sm:inline-flex gap-4 items-center place-items-center"
       @click="emit('selectResponsibility', responsibility)">
-    <template v-if="Array.isArray(responsibility.type)">
+    <div class="flex gap-4" v-if="Array.isArray(responsibility.type)">
       <img
           v-for="(type, index) in responsibility.type"
           :key="index"
           :alt="type"
-          :src="getImage(`${type}.webp`)" class="h-8"/>
-    </template>
+          :src="getImage(`${type}.webp`)" class="h-8 mt-1 sm:mt-0"/>
+    </div>
     <img
         v-else
         :alt="responsibility.type"
-        :src="getImage(`${responsibility.type}.webp`)" class="h-8"/>
-    <p>{{ responsibility.name }}</p>
+        :src="getImage(`${responsibility.type}.webp`)" class="h-8 mt-1 sm:mt-0"/>
+    <p class="text-xl sm:text-base">{{ responsibility.name }}</p>
   </div>
 </template>
 

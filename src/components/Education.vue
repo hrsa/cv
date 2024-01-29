@@ -1,11 +1,8 @@
 <script setup>
-import {ref} from 'vue'
 import {useTranslation} from "i18next-vue";
 import {getImage} from "../globals.js";
 
 const {i18next, t} = useTranslation();
-const selectedCompany = ref([]);
-const selectedResponsibility = ref(null);
 
 const diplomas = t('diplomas', {returnObjects: true});
 
@@ -13,7 +10,7 @@ const diplomas = t('diplomas', {returnObjects: true});
 
 <template>
   <div>
-    <div v-for="(diploma, index) in diplomas"
+    <div v-for="(diploma, index) in diplomas" :key="index"
          class="mb-5 grid w-full grid-cols-1 blurbox font-bold">
       <p class="text-2xl font-bold my-5">{{ diploma.title }} ({{ diploma.date }})</p>
       <div class="mb-6 text-lg"
@@ -34,10 +31,3 @@ const diplomas = t('diplomas', {returnObjects: true});
     </div>
   </div>
 </template>
-
-<style scoped>
-.rotate-180 {
-  transform: rotate(180deg);
-}
-</style>
-```

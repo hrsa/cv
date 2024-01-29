@@ -34,10 +34,10 @@ const handleSelectCompany = (id) => {
           :title="selectedResponsibility.name" :content="selectedResponsibility.description"
           @closePopup="selectedResponsibility = null"/>
     </Teleport>
-    <div class="mb-5 grid w-full grid-cols-1 blurbox font-bold"
-         v-for="(job, index) in jobs">
+    <div class="mb-5 grid w-full grid-cols-1 blurbox font-bold p-5"
+         v-for="(job, index) in jobs" :key="index">
       <div
-          class="m-auto grid w-full cursor-pointer gap-10 py-2 grid-cols-[8rem_auto_100px]"
+          class="m-auto grid w-full cursor-pointer gap-3 sm:gap-10 py-2 grid-cols-1 sm:grid-cols-[8rem_auto_100px]"
           @click="handleSelectCompany(job.id)"
       >
         <div class="m-auto flex flex-col text-center">
@@ -49,11 +49,13 @@ const handleSelectCompany = (id) => {
           <div class="text-xl">{{ job.company }}</div>
           <div class="text-xl font-bold">{{ job.title }}</div>
         </div>
-        <div class="m-auto h-12 w-12 cursor-pointer justify-center rounded-full p-2">
+        <div class="m-auto size-12 cursor-pointer justify-center rounded-full p-2"
+             :class="selectedCompany.includes(job.id) ?  'max-sm:hidden' : ''"
+        >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                stroke="currentColor"
                class="transition-transform duration-500"
-               :class="{ 'rotate-180': selectedCompany.includes(job.id) }"
+               :class="selectedCompany.includes(job.id) ?  'rotate-180' : ''"
           >
             <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5"/>
           </svg>
