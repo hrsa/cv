@@ -1,3 +1,5 @@
+// noinspection UnnecessaryLabelJS,CommaExpressionJS
+
 import i18next from 'i18next'
 import I18NextVue from 'i18next-vue'
 import LanguageDetector from 'i18next-browser-languagedetector'

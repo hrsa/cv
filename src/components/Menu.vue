@@ -24,7 +24,7 @@ const {i18next, t} = useTranslation();
       </div>
       <img src="/photo.webp" alt="photo" class="size-32 sm:size-64 p-3  sm:p-10 rounded-full order-1 sm:order-2 self-center"/>
     </div>
-    <div class="grid grid-cols-2 sm:flex justify-evenly text-lg">
+    <div class="flex justify-between text-lg">
 
       <div @click="emit('changeTab', 'experience')" class="w-full p-5 rounded-xl hover:backdrop-blur-lg hover:text-white text-gray-100 font-bold cursor-pointer">
         {{ t('experience') }}
