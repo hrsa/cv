@@ -79,7 +79,7 @@ i18next
                                 {
                                     name: 'Italian',
                                     level: 3,
-                                    mastery: 'Avancé',
+                                    mastery: 'Intermediate',
                                     icon: '/flags/it.svg',
                                 },
                                 {
