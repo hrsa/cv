@@ -12,6 +12,10 @@ i18next
         resources: {
             en: {
                 translation: {
+                    languages: {
+                        en: 'English',
+                        fr: 'French',
+                    },
                     firstname: 'Anton',
                     lastname: 'Cherednichenko',
                     post: 'CTO/COO, Co-founder',
@@ -33,7 +37,7 @@ i18next
                         },
                         {
                             name: 'Download CV',
-                            url: 'https://anton.eco/cv/fr_cv_anton_cherednichenko.pdf',
+                            url: 'https://anton.eco/cv/en_cv_anton_cherednichenko.pdf',
                             icon: '/download.webp',
                         },
                     ],
@@ -75,7 +79,7 @@ i18next
                                 {
                                     name: 'Italian',
                                     level: 3,
-                                    mastery: 'Intermediate',
+                                    mastery: 'Avancé',
                                     icon: '/flags/it.svg',
                                 },
                                 {
@@ -307,6 +311,7 @@ i18next
                                             content: "<li>Separation of concerns</li>" +
                                                 "<li>Re-planned and re-organised models and classes structure</li>" +
                                                 "<li>Refactoring of “fat” controllers into Requests, Services and Jobs</li>" +
+                                                "<li>Introduced API versioning</li>" +
                                                 "<li>Cleaned out hundreds of N+1 queries</li>" +
                                                 "<li>Ensured proper Eloquent use and eager resources loading</li>",
                                         },
@@ -413,7 +418,15 @@ i18next
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Design and follow-up of the marketing strategy (campaign, events, visual identity) and operational plan, budget management (20 000 000 €), definition, monitoring and reporting of KPIs',
+                                                content: 'Design and follow-up of the marketing strategy (campaign, events, visual identity) and operational plan',
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: 'Budget management (20\u00A0000\u00A0000\u00A0€)',
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: 'Definition, monitoring and reporting of KPIs',
                                             },
                                         ],
                                     },
@@ -711,12 +724,720 @@ i18next
             },
             fr: {
                 translation: {
-                    firstname: 'George',
-                    lastname:
-                        'Washington',
-                    // here we will place our translations...
+                    languages: {
+                        en: 'Anglais',
+                        fr: 'Français',
+                    },
+                    firstname: 'Anton',
+                    lastname: 'Cherednichenko',
+                    post: 'CTO/COO, Co-fondateur',
+                    links: [
+                        {
+                            name: 'LinkedIn',
+                            url: 'https://www.linkedin.com/in/hrsart/',
+                            icon: '/linkedin.webp',
+                        },
+                        {
+                            name: 'GitHub',
+                            url: 'https://www.github.com/hrsa/',
+                            icon: '/github.webp',
+                        },
+                        {
+                            name: 'Email',
+                            url: 'mailto:anton@anton.eco',
+                            icon: '/email.webp',
+                        },
+                        {
+                            name: 'Télécharger le CV',
+                            url: 'https://anton.eco/cv/fr_cv_anton_cherednichenko.pdf',
+                            icon: '/download.webp',
+                        },
+                    ],
+                    experience: 'Expérience',
+                    education: 'Formations',
+                    skills: 'Compétences',
+                    about: {
+                        tech: {
+                            title: "J'utilise",
+                            languages: ['PHP', 'JavaScript', 'Python', 'SQL', 'HTML', 'CSS'],
+                            love: ['Tinkerwell', 'Ray', 'Expose'],
+                            frameworks: ['Laravel', 'Livewire', 'Vue.js', 'Tailwind'],
+                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'OpenServer'],
+                            crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
+                            sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
+                            adobe: ['Photoshop', 'Illustrator', 'Lightroom', 'Premiere', 'After Effects'],
+                        },
+                        languages: {
+                            title: 'Langues',
+                            list: [
+                                {
+                                    name: 'Anglais',
+                                    level: 4,
+                                    mastery: 'Trilingue',
+                                    icon: '/flags/gb.svg',
+                                },
+                                {
+                                    name: 'Français',
+                                    level: 4,
+                                    mastery: 'Trilingue',
+                                    icon: '/flags/fr.svg',
+                                },
+                                {
+                                    name: 'Russe',
+                                    level: 4,
+                                    mastery: 'Trilingue',
+                                    icon: '/flags/ru.svg',
+                                },
+                                {
+                                    name: 'Italien',
+                                    level: 3,
+                                    mastery: 'Intérmediaire',
+                                    icon: '/flags/it.svg',
+                                },
+                                {
+                                    name: 'Espagnol',
+                                    level: 3,
+                                    mastery: 'Intérmediaire',
+                                    icon: '/flags/es.svg',
+                                },
+                                {
+                                    name: 'Allemand',
+                                    level: 3,
+                                    mastery: 'Intérmediaire',
+                                    icon: '/flags/de.svg',
+                                },
+                                {
+                                    name: 'Portugais',
+                                    level: 2,
+                                    mastery: 'Elementary',
+                                    icon: '/flags/pt.svg',
+                                },
+                                {
+                                    name: 'Neerlandais',
+                                    level: 2,
+                                    mastery: 'Elementary',
+                                    icon: '/flags/nl.svg',
+                                },
+                                {
+                                    name: 'Japonais',
+                                    level: 1,
+                                    mastery: 'Notions',
+                                    icon: '/flags/jp.svg',
+                                },
+                                {
+                                    name: 'Arabe',
+                                    level: 1,
+                                    mastery: 'Notions',
+                                    icon: '/flags/arab.svg',
+                                },
+                                {
+                                    name: 'Greque',
+                                    level: 1,
+                                    mastery: 'Notions',
+                                    icon: '/flags/gr.svg',
+                                },
+                                {
+                                    name: 'Islandais',
+                                    level: 1,
+                                    mastery: 'Notions',
+                                    icon: '/flags/is.svg',
+                                },
+                                {
+                                    name: 'Lithuanien',
+                                    level: 1,
+                                    mastery: 'Notions',
+                                    icon: '/flags/lt.svg',
+                                },
+                            ],
+                        },
+
+                    },
+                    jobs: [
+                        {
+                            id: 1,
+                            logo: '/logo/impactmaker.webp',
+                            dates: '2023 - Présent',
+                            company: 'ImpactMaker.ai',
+                            title: 'CTO, Co-fondateur',
+                            city: 'Paris',
+                            responsibilities: [
+                                {
+                                    id: 1,
+                                    name: "Planification de l'architecture et développement full-stack",
+                                    type: 'tech',
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Création, construction et amélioration de l\'application Impact Maker (un chatbot personnalisable en temps réel alimenté par OpenAI qui aide les utilisateurs à trouver les meilleures opportunités de bénévolat',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Stack utilisé: Vue.js, Tailwind CSS avec l\'API Laravel connecté via websockets)',
+                                        },
+                                    ],
+                                },
+                            ],
+                        },
+                        {
+                            id: 2,
+                            logo: '/logo/globedreamers.webp',
+                            dates: '2019 - Présent',
+                            company: 'GlobeDreamers',
+                            title: 'COO/CTO, Co-fondateur',
+                            city: 'Paris',
+                            responsibilities: [
+                                {
+                                    id: 1,
+                                    name: 'Stratégie globale et innovation',
+                                    type: 'business',
+                                    description: [
+                                        {
+                                            icon: 'business',
+                                            content: "Conception et mise en œuvre de la stratégie de développement de l'entreprise (commerciale, organisationnelle, technique, recherche d'investisseurs)",
+                                        },
+                                        {
+                                            icon: 'business',
+                                            content: "Conception et création d'offres commerciales pour les entreprises, les écoles et les médias, contribuant à la croissance significative de la plateforme",
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 2,
+                                    name: 'Partenariats stratégiques',
+                                    type: 'business',
+                                    description: [
+                                        {
+                                            icon: 'business',
+                                            content: "Initiation et gestion de partenariats avec des entités de renom telles que l'ONU et la Croix Rouge, renforçant l'impact et la portée internationale",
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 3,
+                                    name: 'Leadership et management',
+                                    type: 'business',
+                                    description: [
+                                        {
+                                            icon: 'business',
+                                            content: 'Gestion financière, opérationnelle et humaine',
+                                        },
+                                        {
+                                            icon: 'business',
+                                            content: 'Organisation du travail en équipe, priorisation selon la stratégie, responsabilisation des collaborateurs',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 4,
+                                    name: 'Engagement et networking',
+                                    type: 'business',
+                                    description: [
+                                        {
+                                            icon: 'business',
+                                            content: 'Participation active à B For Good Leaders, une coopérative mondiale de dirigeants œuvrant pour une économie régénérative',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 5,
+                                    name: 'Leadership technologique et opérationnel',
+                                    type: 'tech',
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'En charge de l\'aspect technologique de la plateforme et de l\'optimisation des processus opérationnels et financiers'
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Choix des technologies, mise en place du CI/CD, développement full-stack, encadrement d\'une équipe agile de développeurs sous-traitants'
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 6,
+                                    name: 'Planification de l\'architecture',
+                                    type: 'tech',
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Construction de l\'intégralité de la plateforme GlobeDreamers (applications api, frontend et backoffice)',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 7,
+                                    name: 'Stratégie DevOps',
+                                    type: 'tech',
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Réécriture et amélioration des pipelines CD/CI, ajout de contrôles de qualité du code et de tests fonctionnels et unitaires',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 8,
+                                    name: 'Administration des serveurs Linux',
+                                    type: 'tech',
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Mise à jour des serveurs de staging et de production (mises à niveau Ubuntu, nouvelles versions de PHP, paramètres nginx, mises à jour de certificats, etc.)',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 9,
+                                    name: 'Refactoring et mises à jour',
+                                    type: ['tech', 'success'],
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Refactoring de la base de code (réécrite à 75% à partir de zéro) pour 3 projets : API, Frontend, Back-office',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Mise à jour de PHP (5.6 à 8.3)'
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Mise ) jour de Laravel (5.7 à 10.41)'
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Intégration Vue3 et Livewire pour les applications Frontend et Backoffice'
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 10,
+                                    name: 'Évolution d\'API',
+                                    type: ['tech', 'success'],
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Planifié, réécrit, nettoyé et amélioré l\'architecture de la plateforme, la structure de la base de données et son organisation.',
+                                        },
+                                        {
+                                            icon: 'sublist',
+                                            content: '<li>"Separation of concerns"</li>' +
+                                                "<li>Planification et organisation des modèles et des classes</li>" +
+                                                '<li>Refactoring des "gros" Controllers en Requests, Services et Jobs</li>' +
+                                                '<li>Versionnement des API</li>' +
+                                                "<li>Nettoyage de centaines de requêtes N+1</li>" +
+                                                "<li>Refactoring pour utilisation appropriée d’Eloquent et un chargement pre emptif (eager loading) des ressources</li>",
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Couverture de la base de code (0% à 98%) avec 670 tests fonctionnels et 12 tests unitaires, refactorisés ultérieurement de PHPUnit vers Pest',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Maintient de la couverture des tests constante tout en développant du nouveau code',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'API tierces intégrées : Google Maps, Mangopay, ClickUp, Calendly, Hubspot, Brevo, LaGrowthMachine, Typeform, OpenAI…',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Synchronisation en temps réel entre l\'API et le frontend via Websockets',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Génération automatique des factures en PDF',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Chatbot IA',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Et beaucoup plus...',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 11,
+                                    name: 'Évolution de Frontend et Backoffice',
+                                    type: ['tech', 'success'],
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Réécriture intégrale de deux apps pour augmenter la réactivité dynamique et intégrer des fonctionnalités d\'IA, ainsi que de nouveaux modèles'
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Mélange obsolète de Bootstrap, SCSS et CSS remplacé par Tailwind'
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Refactoring de l’interface obsolète Blade/jQuery en :'
+                                        },
+                                        {
+                                            icon: 'sublist',
+                                            content: '<li>Frontend  – une SPA Vue.js (Vue3 Composition API)</li>' +
+                                                '<li>Backoffice – une application Livewire</li>',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 12,
+                                    name: 'Growth and Impact',
+                                    type: ['business', 'success'],
+                                    description: [
+                                        {
+                                            icon: 'business',
+                                            content: 'Collecte de fonds par la plateforme augmentée de €72\u00A0000 à €1\u00A0300\u00A0000',
+                                        },
+                                        {
+                                            icon: 'business',
+                                            content: 'Croissance de la base d\'utilisateurs de 4\u00A0000 à 12\u00A0000',
+                                        },
+                                        {
+                                            icon: 'business',
+                                            content: 'Nouveaux partenaires commerciaux - croissance de 90 à 800, avec des partenariats clés comme la Fondation Orange, Outdoor Sports Valley, etc',
+                                        },
+                                    ],
+                                },
+                            ],
+                        },
+                        {
+                            id: 3,
+                            logo:
+                                '/logo/expo.webp',
+                            dates:
+                                '2017 - 2019',
+                            company:
+                                'Comité de candidature de Russie pour l\'Exposition universelle 2025',
+                            title:
+                                'Directeur du développement international',
+                            city:
+                                'Paris',
+                            responsibilities:
+                                [
+                                    {
+                                        id: 1,
+                                        name: 'Gestion des opérations',
+                                        type: 'business',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Gestion des opérations du comité à Paris (12 personnes)',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 2,
+                                        name: 'Stratégie marketing et budgétaire',
+                                        type: 'business',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Conception et suivi de la stratégie marketing (campagne, événements, identité visuelle) et du plan opérationnel',
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: 'Gestion du budget (20\u00A0000\u00A0000\u00A0€)',
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: 'Définition, suivi et reporting des KPI',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 3,
+                                        name: 'Négociations et partenariats',
+                                        type: 'business',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Prospection et mise en place de partenariats avec les hauts représentants de 170 pays, négociation des "big deals"',
+                                            },
+                                        ],
+                                    },
+                                ],
+                        }
+                        ,
+                        {
+                            id: 4,
+                            logo:
+                                '/logo/trade-delegation.webp',
+                            dates:
+                                '2012 - 2017',
+                            company:
+                                'Délégation Économique de Russie en France',
+                            title:
+                                'Directeur commercial adjoint',
+                            city:
+                                'Paris',
+                            responsibilities:
+                                [
+                                    {
+                                        id: 1,
+                                        name: 'Gestion des opérations',
+                                        type: 'business',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Gestion des opérations de l\'équipe de 15 personnes, chargée de conseil aux cadres supérieurs des entreprises russes et françaises dans leur stratégies de développement international',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 2,
+                                        name: 'Partenariats stratégiques',
+                                        type: 'business',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Prospection de nouveaux marchés',
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: 'Mise en place de partenariats stratégiques',
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: 'Promotion de la coopération internationale',
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: 'Définition, suivi et reporting des KPI',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 3,
+                                        name: 'Développement du réseau',
+                                        type: 'business',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Création du réseau de partenaires en France et en Russie',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 4,
+                                        name: '86 nouveaux contrats internationaux signés',
+                                        type: ['business', 'success'],
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: '86 nouveaux contrats internationaux signés (PME et grands comptes) dans les secteurs variés : aviation, matériaux composites, informatique, microélectronique, grande distribution, sécurité publique, robotique, tourisme, énergie, transportation'
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: '+260% sur objectif des contrats signés (130\u00A0000\u00A0000€ au lieu de 50\u00A0000\u00A0000€)'
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 5,
+                                        name: 'Lobbying interministériel',
+                                        type: ['business', 'success'],
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Lobbying réussi et signature de la stratégie de coopération franco-russe dans le domaine de l\'innovation',
+                                            },
+                                        ],
+                                    },
+                                ],
+                        }
+                        ,
+                        {
+                            id: 5,
+                            logo:
+                                '/logo/trade-delegation.webp',
+                            dates:
+                                '2010 - 2012',
+                            company:
+                                'Délégation Économique de Russie en France',
+                            title:
+                                'Responsable des partenariats internationaux',
+                            city:
+                                'Paris',
+                            responsibilities:
+                                [
+                                    {
+                                        id: 1,
+                                        name: 'Gestion des opérations',
+                                        type: 'business',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Management de l’équipe de 3 personnes, chargée de gestion des projets d’adhésion à l’OCDE',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 2,
+                                        name: 'Négotiations',
+                                        type: 'business',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Négociations politiques et commerciales quotidiennes avec les représentants de plus de 150 pays',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 3,
+                                        name: 'Recherche et reporting',
+                                        type: 'business',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Collecte d’information, analyse de législation pertinente, reporting auprès des ministères',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 4,
+                                        name: 'Traités internationaux signés',
+                                        type: ['business', 'success'],
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Participation à la négociation de traités internationaux :'
+                                            },
+                                            {
+                                                icon: 'sublist',
+                                                content: '<li>Convention on Combating Bribery of Foreign Public Officials in International Business Transactions</li>' +
+                                                    '<li>Convention on Mutual Administrative Assistance in Tax Matters</li>',
+                                            },
+                                        ],
+                                    },
+                                ],
+                        }
+                        ,
+                        {
+                            id: 6,
+                            logo:
+                                '/logo/bearingpoint.webp',
+                            dates:
+                                '2009 - 2010',
+                            company:
+                                'Bearingpoint',
+                            title:
+                                'Analyste business intelligence',
+                            city:
+                                'Moscow',
+                            responsibilities:
+                                [
+                                    {
+                                        id: 1,
+                                        type: 'tech',
+                                        name: 'SAP R/3 implémentation',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'ERP system intégration (SAP R/3)',
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: 'Harmonisation des processus opérationnels de l\'entreprise pétroliere “Rosneft”',
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: 'Préparation d’offre d’acquisition de "British Petroleum"',
+                                            },
+                                        ],
+                                    },
+                                ],
+                        }
+                        ,
+                        {
+                            id: 7,
+                            logo:
+                                '/logo/uralsib.webp',
+                            dates:
+                                '2007 - 208',
+                            company:
+                                'Uralsib',
+                            title:
+                                'Analyste de processus opérationnels',
+                            city:
+                                'Moscow',
+                            responsibilities:
+                                [
+                                    {
+                                        id: 1,
+                                        type: 'tech',
+                                        name: 'Mapping de processus opérationnels',
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Mise en correspondance de processus opérationnels dans la forme digitale (ARIS) pour faciliter l’intégration du système ERP (SAP/R3)',
+                                            },
+                                        ],
+                                    },
+                                ],
+                        }
+                        ,
+                    ],
+                    diplomas: [
+                        {
+                            date: '2019',
+                            title: 'Executive MBA',
+                            comment: '<div>Lauréat de 3 bourses de mérite :</div>' +
+                                '<div>“Emerging and Developing Markets”, “High Potential”, “International Experience”</div>',
+                            school: [
+                                {
+                                    name: 'ESSEC Business School',
+                                    city: 'Paris',
+                                    logo: '/logo/essec.webp',
+                                },
+                                {
+                                    name: 'Mannheim Business School',
+                                    city: 'Mannheim',
+                                    logo: '/logo/mbs.webp',
+                                },
+                                {
+                                    name: 'Georgetown University\'s McCourt School of Public Policy',
+                                    city: 'Washington DC',
+                                    logo: '/logo/mcspp.webp',
+                                },
+                                {
+                                    name: 'Waseda Business School',
+                                    city: 'Tokyo',
+                                    logo: '/logo/waseda.webp',
+                                },
+                                {
+                                    name: 'ESSEC Asia-Pacific',
+                                    city: 'Singqpour',
+                                    logo: '/logo/essec.webp',
+                                },
+                            ],
+                        },
+                        {
+                            date: '2017',
+                            title: 'Leadership, team spirit and managing difficult situations',
+                            school: [
+                                {
+                                    name: 'Écoles de Saint-Cyr Coëtquidan',
+                                    city: 'Guer',
+                                    logo: '/logo/stcyr.webp',
+                                },
+                            ],
+                        },
+                        {
+                            date: '2010',
+                            title: 'MMaster (Économie et Politique Internationale)',
+                            school: [
+                                {
+                                    name: 'Haute École des Sciences Économiques',
+                                    city: 'Moscou',
+                                    logo: '/logo/hse.webp',
+                                },
+                            ],
+                        },
+                    ],
                 }
-            }
+            },
         }
     })
 ;

@@ -1,15 +1,16 @@
 <script setup>
 import {useTranslation} from "i18next-vue";
+import LanguageSwitch from "./LanguageSwitch.vue";
 
 const emit = defineEmits(['changeTab']);
 
 const {i18next, t} = useTranslation();
 
-
 </script>
 
 <template>
   <div class="blurbox mb-5">
+    <LanguageSwitch class="pt-5"/>
     <div class="flex flex-col sm:flex-row gap-2 sm:gap-10 justify-between w-full">
       <div class="flex flex-col gap-5 place-self-center p-3 sm:p-10 justify-center order-2">
         <h1 class="text-2xl sm:text-4xl ">{{ t('firstname') }} {{ t('lastname') }}</h1>
