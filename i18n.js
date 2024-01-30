@@ -46,7 +46,7 @@ i18next
                     skills: 'Skills',
                     about: {
                         tech: {
-                            title: 'Tech stack',
+                            title: 'Skills',
                             languages: ['PHP', 'JavaScript', 'Python', 'SQL', 'HTML', 'CSS'],
                             love: ['Tinkerwell', 'Ray', 'Expose'],
                             frameworks: ['Laravel', 'Livewire', 'Vue.js', 'Tailwind'],
@@ -742,6 +742,29 @@ i18next
                             ],
                         },
                     ],
+                    courses: "Lifelong learning",
+                    lifelong: [
+                        {
+                            id: 1,
+                            name: 'Laracasts',
+                            logo: '/logo/laracasts.webp',
+                        },
+                        {
+                            id: 2,
+                            name: 'Laravel Daily',
+                            logo: '/logo/laravel-daily.webp',
+                        },
+                        {
+                            id: 3,
+                            name: 'Vue School',
+                            logo: '/logo/vue-school.webp',
+                        },
+                        {
+                            id: 4,
+                            name: 'Spatie',
+                            logo: '/logo/spatie.webp',
+                        },
+                    ],
                 }
             },
             fr: {
@@ -780,7 +803,7 @@ i18next
                     skills: 'Compétences',
                     about: {
                         tech: {
-                            title: "J'utilise",
+                            title: "Compétences",
                             languages: ['PHP', 'JavaScript', 'Python', 'SQL', 'HTML', 'CSS'],
                             love: ['Tinkerwell', 'Ray', 'Expose'],
                             frameworks: ['Laravel', 'Livewire', 'Vue.js', 'Tailwind'],
@@ -1478,6 +1501,29 @@ i18next
                                     logo: '/logo/hse.webp',
                                 },
                             ],
+                        },
+                    ],
+                    courses: "Lifelong learning",
+                    lifelong: [
+                        {
+                            id: 1,
+                            name: 'Laracasts',
+                            logo: '/logo/laracasts.webp',
+                        },
+                        {
+                            id: 2,
+                            name: 'Laravel Daily',
+                            logo: '/logo/laravel-daily.webp',
+                        },
+                        {
+                            id: 3,
+                            name: 'Vue School',
+                            logo: '/logo/vue-school.webp',
+                        },
+                        {
+                            id: 4,
+                            name: 'Spatie',
+                            logo: '/logo/spatie.webp',
                         },
                     ],
                 }
