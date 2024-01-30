@@ -1,5 +1,5 @@
 <script setup>
-import {ref} from 'vue'
+import {onMounted, ref} from 'vue'
 import {useTranslation} from "i18next-vue";
 import Menu from "./components/Menu.vue";
 import Experience from "./components/Experience.vue";
@@ -8,6 +8,19 @@ import Skills from "./components/Skills.vue";
 
 const { i18next, t } = useTranslation();
 const currentTab = ref('experience');
+const langQuery = ref('');
+const dataQuery = ref('');
+
+
+onMounted(() => {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  langQuery.value = urlParams.get('lang');
+  dataQuery.value = urlParams.get('data');
+  if (langQuery.value) {
+    i18next.changeLanguage(langQuery.value);
+  }
+});
 </script>
 
 <template>

@@ -153,6 +153,7 @@ i18next
                                     id: 1,
                                     name: 'Architecture planning and full-stack development',
                                     type: 'tech',
+                                    data: 1,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -178,6 +179,7 @@ i18next
                                     id: 1,
                                     name: 'Global strategy and innovation',
                                     type: 'business',
+                                    data: 2,
                                     description: [
                                         {
                                             icon: 'business',
@@ -193,6 +195,7 @@ i18next
                                     id: 2,
                                     name: 'Strategic partnerships',
                                     type: 'business',
+                                    data: 3,
                                     description: [
                                         {
                                             icon: 'business',
@@ -204,6 +207,7 @@ i18next
                                     id: 3,
                                     name: 'Leadership and management',
                                     type: 'business',
+                                    data: 4,
                                     description: [
                                         {
                                             icon: 'business',
@@ -219,6 +223,7 @@ i18next
                                     id: 4,
                                     name: 'Engagement and networking',
                                     type: 'business',
+                                    data: 5,
                                     description: [
                                         {
                                             icon: 'business',
@@ -230,6 +235,7 @@ i18next
                                     id: 5,
                                     name: 'Technological and operational leadership',
                                     type: 'tech',
+                                    data: 6,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -245,6 +251,7 @@ i18next
                                     id: 6,
                                     name: 'Architecture planning',
                                     type: 'tech',
+                                    data: 7,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -256,6 +263,7 @@ i18next
                                     id: 7,
                                     name: 'DevOps strategy',
                                     type: 'tech',
+                                    data: 8,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -265,8 +273,9 @@ i18next
                                 },
                                 {
                                     id: 8,
-                                    name: 'Linux server administration',
+                                    name: 'Linux server management',
                                     type: 'tech',
+                                    data: 9,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -278,6 +287,7 @@ i18next
                                     id: 9,
                                     name: 'Refactoring and upgrades',
                                     type: ['tech', 'success'],
+                                    data: 10,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -301,6 +311,7 @@ i18next
                                     id: 10,
                                     name: 'API improvements',
                                     type: ['tech', 'success'],
+                                    data: 11,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -345,6 +356,7 @@ i18next
                                     id: 11,
                                     name: 'Frontend and Backoffice improvements',
                                     type: ['tech', 'success'],
+                                    data: 12,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -369,6 +381,7 @@ i18next
                                     id: 12,
                                     name: 'Growth and Impact',
                                     type: ['business', 'success'],
+                                    data: 13,
                                     description: [
                                         {
                                             icon: 'business',
@@ -404,6 +417,7 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
+                                        data: 14,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -415,6 +429,7 @@ i18next
                                         id: 2,
                                         name: 'Marketing and budget strategy',
                                         type: 'business',
+                                        data: 15,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -434,6 +449,7 @@ i18next
                                         id: 3,
                                         name: 'Negotiations and partnerships',
                                         type: 'business',
+                                        data: 16,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -442,8 +458,7 @@ i18next
                                         ],
                                     },
                                 ],
-                        }
-                        ,
+                        },
                         {
                             id: 4,
                             logo:
@@ -462,6 +477,7 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
+                                        data: 17,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -473,6 +489,7 @@ i18next
                                         id: 2,
                                         name: 'Strategic partnerships',
                                         type: 'business',
+                                        data: 18,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -496,6 +513,7 @@ i18next
                                         id: 3,
                                         name: 'Network development',
                                         type: 'business',
+                                        data: 19,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -507,6 +525,7 @@ i18next
                                         id: 4,
                                         name: '86 new international contracts signed',
                                         type: ['business', 'success'],
+                                        data: 20,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -522,6 +541,7 @@ i18next
                                         id: 5,
                                         name: 'Inter-ministry lobbying',
                                         type: ['business', 'success'],
+                                        data: 21,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -530,8 +550,7 @@ i18next
                                         ],
                                     },
                                 ],
-                        }
-                        ,
+                        },
                         {
                             id: 5,
                             logo:
@@ -550,6 +569,7 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
+                                        data: 22,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -561,6 +581,7 @@ i18next
                                         id: 2,
                                         name: 'Negotiations',
                                         type: 'business',
+                                        data: 23,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -572,6 +593,7 @@ i18next
                                         id: 3,
                                         name: 'Research and reporting',
                                         type: 'business',
+                                        data: 24,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -583,6 +605,7 @@ i18next
                                         id: 4,
                                         name: 'International treaties signed',
                                         type: ['business', 'success'],
+                                        data: 25,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -596,8 +619,7 @@ i18next
                                         ],
                                     },
                                 ],
-                        }
-                        ,
+                        },
                         {
                             id: 6,
                             logo:
@@ -615,6 +637,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
+                                        data: 26,
                                         name: 'SAP R/3 implementation',
                                         description: [
                                             {
@@ -632,8 +655,7 @@ i18next
                                         ],
                                     },
                                 ],
-                        }
-                        ,
+                        },
                         {
                             id: 7,
                             logo:
@@ -651,6 +673,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
+                                        data: 27,
                                         name: 'Business process mapping',
                                         description: [
                                             {
@@ -660,8 +683,7 @@ i18next
                                         ],
                                     },
                                 ],
-                        }
-                        ,
+                        },
                     ],
                     diplomas: [
                         {
@@ -865,6 +887,7 @@ i18next
                                     id: 1,
                                     name: "Planification de l'architecture et développement full-stack",
                                     type: 'tech',
+                                    data: 1,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -890,6 +913,7 @@ i18next
                                     id: 1,
                                     name: 'Stratégie globale et innovation',
                                     type: 'business',
+                                    data: 2,
                                     description: [
                                         {
                                             icon: 'business',
@@ -905,6 +929,7 @@ i18next
                                     id: 2,
                                     name: 'Partenariats stratégiques',
                                     type: 'business',
+                                    data: 3,
                                     description: [
                                         {
                                             icon: 'business',
@@ -916,6 +941,7 @@ i18next
                                     id: 3,
                                     name: 'Leadership et management',
                                     type: 'business',
+                                    data: 4,
                                     description: [
                                         {
                                             icon: 'business',
@@ -931,6 +957,7 @@ i18next
                                     id: 4,
                                     name: 'Engagement et networking',
                                     type: 'business',
+                                    data: 5,
                                     description: [
                                         {
                                             icon: 'business',
@@ -942,6 +969,7 @@ i18next
                                     id: 5,
                                     name: 'Leadership technologique et opérationnel',
                                     type: 'tech',
+                                    data: 6,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -957,6 +985,7 @@ i18next
                                     id: 6,
                                     name: 'Planification de l\'architecture',
                                     type: 'tech',
+                                    data: 7,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -968,6 +997,7 @@ i18next
                                     id: 7,
                                     name: 'Stratégie DevOps',
                                     type: 'tech',
+                                    data: 8,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -977,8 +1007,9 @@ i18next
                                 },
                                 {
                                     id: 8,
-                                    name: 'Administration des serveurs Linux',
+                                    name: 'Gestion des serveurs Linux',
                                     type: 'tech',
+                                    data: 9,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -990,6 +1021,7 @@ i18next
                                     id: 9,
                                     name: 'Refactoring et mises à jour',
                                     type: ['tech', 'success'],
+                                    data: 10,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -1013,6 +1045,7 @@ i18next
                                     id: 10,
                                     name: 'Évolution d\'API',
                                     type: ['tech', 'success'],
+                                    data: 11,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -1061,6 +1094,7 @@ i18next
                                     id: 11,
                                     name: 'Évolution de Frontend et Backoffice',
                                     type: ['tech', 'success'],
+                                    data: 12,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -1083,8 +1117,9 @@ i18next
                                 },
                                 {
                                     id: 12,
-                                    name: 'Growth and Impact',
+                                    name: 'Croissance et impact',
                                     type: ['business', 'success'],
+                                    data: 13,
                                     description: [
                                         {
                                             icon: 'business',
@@ -1120,6 +1155,7 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
+                                        data: 14,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1131,6 +1167,7 @@ i18next
                                         id: 2,
                                         name: 'Stratégie marketing et budgétaire',
                                         type: 'business',
+                                        data: 15,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1150,6 +1187,7 @@ i18next
                                         id: 3,
                                         name: 'Négociations et partenariats',
                                         type: 'business',
+                                        data: 16,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1158,8 +1196,7 @@ i18next
                                         ],
                                     },
                                 ],
-                        }
-                        ,
+                        },
                         {
                             id: 4,
                             logo:
@@ -1178,6 +1215,7 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
+                                        data: 17,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1189,6 +1227,7 @@ i18next
                                         id: 2,
                                         name: 'Partenariats stratégiques',
                                         type: 'business',
+                                        data: 18,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1212,6 +1251,7 @@ i18next
                                         id: 3,
                                         name: 'Développement du réseau',
                                         type: 'business',
+                                        data: 19,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1223,6 +1263,7 @@ i18next
                                         id: 4,
                                         name: '86 nouveaux contrats internationaux signés',
                                         type: ['business', 'success'],
+                                        data: 20,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1238,6 +1279,7 @@ i18next
                                         id: 5,
                                         name: 'Lobbying interministériel',
                                         type: ['business', 'success'],
+                                        data: 21,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1246,8 +1288,7 @@ i18next
                                         ],
                                     },
                                 ],
-                        }
-                        ,
+                        },
                         {
                             id: 5,
                             logo:
@@ -1266,6 +1307,7 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
+                                        data: 22,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1277,6 +1319,7 @@ i18next
                                         id: 2,
                                         name: 'Négotiations',
                                         type: 'business',
+                                        data: 23,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1288,6 +1331,7 @@ i18next
                                         id: 3,
                                         name: 'Recherche et reporting',
                                         type: 'business',
+                                        data: 24,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1299,6 +1343,7 @@ i18next
                                         id: 4,
                                         name: 'Traités internationaux signés',
                                         type: ['business', 'success'],
+                                        data: 25,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1312,8 +1357,7 @@ i18next
                                         ],
                                     },
                                 ],
-                        }
-                        ,
+                        },
                         {
                             id: 6,
                             logo:
@@ -1331,7 +1375,8 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        name: 'SAP R/3 implémentation',
+                                        data: 26,
+                                        name: 'Implémentation de SAP R/3',
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1348,8 +1393,7 @@ i18next
                                         ],
                                     },
                                 ],
-                        }
-                        ,
+                        },
                         {
                             id: 7,
                             logo:
@@ -1367,6 +1411,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
+                                        data: 27,
                                         name: 'Mapping de processus opérationnels',
                                         description: [
                                             {
@@ -1376,8 +1421,7 @@ i18next
                                         ],
                                     },
                                 ],
-                        }
-                        ,
+                        },
                     ],
                     diplomas: [
                         {

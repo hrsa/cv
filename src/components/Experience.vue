@@ -1,5 +1,5 @@
 <script setup>
-import {ref, computed} from 'vue'
+import {ref, computed, onMounted, nextTick} from 'vue'
 import {useTranslation} from "i18next-vue";
 import Responsibility from "./Responsibility.vue";
 import Popup from "./Popup.vue";
@@ -22,6 +22,34 @@ const handleSelectCompany = (id) => {
   }
 }
 
+onMounted(() => {
+  const changeLanguageAndGetData = async () => {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    let dataQuery = urlParams.get('data');
+    let langQuery = urlParams.get('lang');
+
+    if (langQuery) {
+      await i18next.changeLanguage(langQuery);
+      await nextTick();
+    }
+
+    if (dataQuery) {
+      for (let job of jobs.value) {
+        for (let responsibility of job.responsibilities) {
+          if (responsibility.data == dataQuery) {
+            selectedResponsibility.value = responsibility;
+            break;
+          }
+        }
+      }
+    }
+
+    history.pushState({}, "", location.pathname);
+  };
+
+  changeLanguageAndGetData();
+});
 
 </script>
 
