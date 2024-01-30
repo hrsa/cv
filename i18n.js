@@ -273,7 +273,7 @@ i18next
                                 },
                                 {
                                     id: 8,
-                                    name: 'Linux server management',
+                                    name: 'Linux servers management',
                                     type: 'tech',
                                     data: 9,
                                     description: [
