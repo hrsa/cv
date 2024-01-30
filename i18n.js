@@ -791,31 +791,31 @@ i18next
                                 {
                                     name: 'Italien',
                                     level: 3,
-                                    mastery: 'Intérmediaire',
+                                    mastery: 'Intermédiaire',
                                     icon: '/flags/it.svg',
                                 },
                                 {
                                     name: 'Espagnol',
                                     level: 3,
-                                    mastery: 'Intérmediaire',
+                                    mastery: 'Intermédiaire',
                                     icon: '/flags/es.svg',
                                 },
                                 {
                                     name: 'Allemand',
                                     level: 3,
-                                    mastery: 'Intérmediaire',
+                                    mastery: 'Intermédiaire',
                                     icon: '/flags/de.svg',
                                 },
                                 {
                                     name: 'Portugais',
                                     level: 2,
-                                    mastery: 'Elementary',
+                                    mastery: 'Débutant',
                                     icon: '/flags/pt.svg',
                                 },
                                 {
-                                    name: 'Neerlandais',
+                                    name: 'Néerlandais',
                                     level: 2,
-                                    mastery: 'Elementary',
+                                    mastery: 'Débutant',
                                     icon: '/flags/nl.svg',
                                 },
                                 {
@@ -1109,7 +1109,7 @@ i18next
                             dates:
                                 '2017 - 2019',
                             company:
-                                'Comité de candidature de Russie pour l\'Exposition universelle 2025',
+                                'Comité de candidature de Russie pour l\'EXPO 2025',
                             title:
                                 'Directeur du développement international',
                             city:
@@ -1408,7 +1408,7 @@ i18next
                                 },
                                 {
                                     name: 'ESSEC Asia-Pacific',
-                                    city: 'Singqpour',
+                                    city: 'Singapour',
                                     logo: '/logo/essec.webp',
                                 },
                             ],
@@ -1426,7 +1426,7 @@ i18next
                         },
                         {
                             date: '2010',
-                            title: 'MMaster (Économie et Politique Internationale)',
+                            title: 'Master - économie et politique internationale',
                             school: [
                                 {
                                     name: 'Haute École des Sciences Économiques',

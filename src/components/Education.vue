@@ -1,9 +1,10 @@
 <script setup>
 import {useTranslation} from "i18next-vue";
+import {computed} from "vue";
 
 const {i18next, t} = useTranslation();
 
-const diplomas = t('diplomas', {returnObjects: true});
+const diplomas = computed(() => t('diplomas', {returnObjects: true}));
 
 </script>
 

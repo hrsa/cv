@@ -1,9 +1,10 @@
 <script setup>
 import {useTranslation} from "i18next-vue";
+import {computed} from "vue";
 
 const {i18next, t} = useTranslation();
 
-const tech = t('about.tech', {returnObjects: true});
+const tech = computed(() => t('about.tech', {returnObjects: true}));
 
 const getBackground = (level) => {
   switch (level) {

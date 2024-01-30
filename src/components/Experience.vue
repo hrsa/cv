@@ -1,5 +1,5 @@
 <script setup>
-import {ref} from 'vue'
+import {ref, computed} from 'vue'
 import {useTranslation} from "i18next-vue";
 import Responsibility from "./Responsibility.vue";
 import Popup from "./Popup.vue";
@@ -8,7 +8,7 @@ const { i18next, t } = useTranslation();
 const selectedCompany = ref([1, 2, 3, 4, 5, 6, 7]);
 const selectedResponsibility = ref(null);
 
-const jobs = t('jobs', { returnObjects: true });
+const jobs = computed (() => t('jobs', { returnObjects: true }));
 
 const handleSelectResponsibility = (responsibility) => {
   selectedResponsibility.value = responsibility;

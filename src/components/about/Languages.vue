@@ -1,8 +1,9 @@
 <script setup>
 import {useTranslation} from "i18next-vue";
+import {computed} from "vue";
 const {i18next, t} = useTranslation();
 
-const languages = t('about.languages', {returnObjects: true});
+const languages = computed(() => t('about.languages', {returnObjects: true}));
 
 const getBackground = (level) => {
   switch (level) {
