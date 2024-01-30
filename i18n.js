@@ -661,7 +661,7 @@ i18next
                             logo:
                                 '/logo/uralsib.webp',
                             dates:
-                                '2007 - 208',
+                                '2007 - 2008',
                             company:
                                 'Uralsib',
                             title:
@@ -1399,7 +1399,7 @@ i18next
                             logo:
                                 '/logo/uralsib.webp',
                             dates:
-                                '2007 - 208',
+                                '2007 - 2008',
                             company:
                                 'Uralsib',
                             title:
