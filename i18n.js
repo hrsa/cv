@@ -1056,7 +1056,7 @@ i18next
                                         },
                                         {
                                             icon: 'tech',
-                                            content: 'Mise ) jour de Laravel (5.7 à 10.41)'
+                                            content: 'Mise à jour de Laravel (5.7 à 10.41)'
                                         },
                                         {
                                             icon: 'tech',
