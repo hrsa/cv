@@ -641,7 +641,7 @@ i18next
                                         name: 'SAP R/3 implementation',
                                         description: [
                                             {
-                                                icon: 'business',
+                                                icon: 'tech',
                                                 content: 'ERP system integration (SAP R/3)',
                                             },
                                             {
@@ -1402,7 +1402,7 @@ i18next
                                         name: 'Implémentation de SAP R/3',
                                         description: [
                                             {
-                                                icon: 'business',
+                                                icon: 'tech',
                                                 content: 'ERP system intégration (SAP R/3)',
                                             },
                                             {
