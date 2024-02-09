@@ -37,7 +37,7 @@ onMounted(() => {
     if (dataQuery) {
       for (let job of jobs.value) {
         for (let responsibility of job.responsibilities) {
-          if (responsibility.data == dataQuery) {
+          if (responsibility.data === parseInt(dataQuery)) {
             selectedResponsibility.value = responsibility;
             break;
           }
