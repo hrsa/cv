@@ -18,7 +18,7 @@ i18next
                     },
                     firstname: 'Anton',
                     lastname: 'Cherednichenko',
-                    post: 'CTO/COO, Co-founder',
+                    post: 'CTO/COO/Lead Dev full-stack',
                     links: [
                         {
                             name: 'LinkedIn',
@@ -775,7 +775,7 @@ i18next
                     },
                     firstname: 'Anton',
                     lastname: 'Cherednichenko',
-                    post: 'CTO/COO, Co-fondateur',
+                    post: 'CTO/COO/Lead Dev full-stack',
                     links: [
                         {
                             name: 'LinkedIn',
