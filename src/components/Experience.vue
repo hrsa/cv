@@ -3,6 +3,7 @@ import {ref, computed, onMounted, nextTick} from 'vue'
 import {useTranslation} from "i18next-vue";
 import Responsibility from "./Responsibility.vue";
 import Popup from "./Popup.vue";
+import {sendMessage} from "../telegram.js";
 
 const { i18next, t } = useTranslation();
 const selectedCompany = ref([1, 2, 3, 4, 5, 6, 7]);
@@ -12,6 +13,17 @@ const jobs = computed (() => t('jobs', { returnObjects: true }));
 
 const handleSelectResponsibility = (responsibility) => {
   selectedResponsibility.value = responsibility;
+
+  for (let job of jobs.value) {
+    for (let res of job.responsibilities) {
+      if (res.data === parseInt(responsibility.data)) {
+        sendMessage('clicked on ' + job.company + ' (' + job.title + ') - ' + responsibility.name);
+        break;
+      }
+    }
+  }
+
+
 }
 
 const handleSelectCompany = (id) => {
