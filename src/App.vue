@@ -5,6 +5,7 @@ import Menu from "./components/Menu.vue";
 import Experience from "./components/Experience.vue";
 import Education from "./components/Education.vue";
 import Skills from "./components/Skills.vue";
+import {sendMessage} from "./telegram.js";
 
 const { i18next, t } = useTranslation();
 const currentTab = ref('experience');
@@ -25,7 +26,7 @@ onMounted(() => {
 
 <template>
   <div class="max-w-4xl absolute top-8 left-1/2 -translate-x-1/2 text-center w-full">
-    <Menu @changeTab="currentTab = $event"/>
+    <Menu @changeTab="currentTab = $event; sendMessage('Browsing ' + $event)"/>
     <div class="w-full flex flex-col">
         <Experience v-if="currentTab === 'experience'"/>
         <Education v-if="currentTab === 'education'"/>

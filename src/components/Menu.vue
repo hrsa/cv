@@ -1,6 +1,7 @@
 <script setup>
 import {useTranslation} from "i18next-vue";
 import LanguageSwitch from "./LanguageSwitch.vue";
+import {sendMessage} from "../telegram.js";
 
 const emit = defineEmits(['changeTab']);
 
@@ -17,7 +18,7 @@ const {i18next, t} = useTranslation();
         <h2 class="text-2xl sm:text-3xl">{{ t('post') }}</h2>
         <div class="flex gap-5 justify-around">
           <div v-for="link in t('links', {returnObjects: true})" :key="link.name">
-            <a :href="link.url" target="_blank" rel="noopener noreferrer">
+            <a :href="link.url" target="_blank" rel="noopener noreferrer" @click="sendMessage('clicked on ' + link.name)">
               <img :alt="link.name" :src="link.icon" class="size-10"/>
             </a>
           </div>
