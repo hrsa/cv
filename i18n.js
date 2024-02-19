@@ -47,7 +47,7 @@ i18next
                     about: {
                         tech: {
                             title: 'Skills',
-                            languages: ['PHP', 'JavaScript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
+                            languages: ['PHP', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
                             love: ['Tinkerwell', 'Ray', 'Expose'],
                             frameworks: ['Laravel', 'Livewire', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
                             tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'OpenServer'],
@@ -804,7 +804,7 @@ i18next
                     about: {
                         tech: {
                             title: "Compétences",
-                            languages: ['PHP', 'JavaScript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
+                            languages: ['PHP', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
                             love: ['Tinkerwell', 'Ray', 'Expose'],
                             frameworks: ['Laravel', 'Livewire', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
                             tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'OpenServer'],
