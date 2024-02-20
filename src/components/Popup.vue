@@ -21,7 +21,7 @@ const emit = defineEmits(['closePopup'])
 
       <span class="hidden sm:inline-block sm:h-screen sm:align-middle" aria-hidden="true">&#8203;</span>
 
-      <div class="absolute w-[90%] left-1/2 -translate-x-1/2 top-36 sm:top-1/3 backdrop-blur-3xl bg-[rgba(255,255,255,0.85)] rounded-lg px-4 py-5 overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-xl sm:w-full sm:p-6">
+      <div class="absolute w-[90%] left-1/2 -translate-x-1/2 top-36 sm:top-1/4 backdrop-blur-3xl bg-[rgba(255,255,255,0.85)] rounded-lg px-4 py-5 overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-xl sm:w-full sm:p-6">
         <div>
           <div class="text-center font-semibold text-gray-900">
             <h3 class="mb-10 text-2xl">

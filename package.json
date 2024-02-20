@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@animxyz/vue3": "^0.6.7",
-    "i18next": "^23.8.3",
+    "i18next": "^23.9.0",
     "i18next-browser-languagedetector": "^7.2.0",
     "i18next-vue": "^4.0.0",
     "vue": "^3.4.19"
