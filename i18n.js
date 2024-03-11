@@ -157,7 +157,7 @@ i18next
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Created, built and improved the Impact Maker app (a customisable real-time OpenAI-powered chatbot that helps users and companies find the best volunteering opportunities',
+                                            content: 'Created, built and improved the Impact Maker app (a customisable real-time OpenAI-powered chatbot that helps users and companies find the best volunteering opportunities)',
                                         },
                                         {
                                             icon: 'tech',
@@ -914,7 +914,7 @@ i18next
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Création, construction et amélioration de l\'application Impact Maker (un chatbot personnalisable en temps réel alimenté par OpenAI qui aide les utilisateurs à trouver les meilleures opportunités de bénévolat',
+                                            content: 'Création, construction et amélioration de l\'application Impact Maker (un chatbot personnalisable en temps réel alimenté par OpenAI qui aide les utilisateurs à trouver les meilleures opportunités de bénévolat)',
                                         },
                                         {
                                             icon: 'tech',
