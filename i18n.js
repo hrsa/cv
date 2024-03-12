@@ -328,7 +328,7 @@ i18next
                                         },
                                         {
                                             icon: 'tech',
-                                            content: 'Increased codebase coverage from 0% to 98% with 670 feature and 12 unit tests, later refactored from PHPUnit to Pest, kept test coverage constant while developing new code',
+                                            content: 'Increased codebase coverage from 0% to 98% with 670 feature and 12 unit tests, later refactored from PHPUnit to Pest, kept test coverage constant while developing new features',
                                         },
                                         {
                                             icon: 'tech',
