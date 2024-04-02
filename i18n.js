@@ -47,9 +47,9 @@ i18next
                     about: {
                         tech: {
                             title: 'Skills',
-                            languages: ['PHP', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
+                            languages: ['PHP', 'Java', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
                             love: ['Tinkerwell', 'Ray', 'Expose'],
-                            frameworks: ['Laravel', 'Livewire', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
+                            frameworks: ['Laravel', 'Livewire', 'Spring Boot', 'FastAPI', 'Flask', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
                             tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'OpenServer'],
                             crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
                             sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
@@ -804,9 +804,9 @@ i18next
                     about: {
                         tech: {
                             title: "Compétences",
-                            languages: ['PHP', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
+                            languages: ['PHP', 'Java', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
                             love: ['Tinkerwell', 'Ray', 'Expose'],
-                            frameworks: ['Laravel', 'Livewire', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
+                            frameworks: ['Laravel', 'Livewire', 'Spring Boot', 'FastAPI', 'Flask', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
                             tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'OpenServer'],
                             crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
                             sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
