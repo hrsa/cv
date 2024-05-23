@@ -48,7 +48,7 @@ i18next
                         tech: {
                             title: 'Skills',
                             languages: ['PHP', 'Java', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
-                            love: ['Tinkerwell', 'Ray', 'Expose'],
+                            love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok'],
                             frameworks: ['Laravel', 'Livewire', 'Spring Boot', 'FastAPI', 'Flask', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
                             tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'OpenServer'],
                             crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
@@ -143,8 +143,42 @@ i18next
                     jobs: [
                         {
                             id: 1,
+                            logo: '/logo/calendize.webp',
+                            dates: '2024 - Present',
+                            company: 'Calendize.it',
+                            title: 'Founder',
+                            city: 'Paris',
+                            responsibilities: [
+                                {
+                                    id: 1,
+                                    name: "Creation and shipping of the entire micro-SAAS project",
+                                    type: 'tech',
+                                    data: 1,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Idea',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Architecture',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Full-stack development',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'CI/CD',
+                                        },
+                                    ],
+                                },
+                            ],
+                        },
+                        {
+                            id: 2,
                             logo: '/logo/impactmaker.webp',
-                            dates: '2023 - Present',
+                            dates: '2023 - 2024',
                             company: 'ImpactMaker.ai',
                             title: 'CTO, Co-founder',
                             city: 'Paris',
@@ -153,7 +187,7 @@ i18next
                                     id: 1,
                                     name: 'Architecture planning and full-stack development',
                                     type: 'tech',
-                                    data: 1,
+                                    data: 2,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -168,9 +202,9 @@ i18next
                             ],
                         },
                         {
-                            id: 2,
+                            id: 3,
                             logo: '/logo/globedreamers.webp',
-                            dates: '2019 - Present',
+                            dates: '2019 - 2024',
                             company: 'GlobeDreamers',
                             title: 'COO/CTO, Co-founder',
                             city: 'Paris',
@@ -179,7 +213,7 @@ i18next
                                     id: 1,
                                     name: 'Global strategy and innovation',
                                     type: 'business',
-                                    data: 2,
+                                    data: 3,
                                     description: [
                                         {
                                             icon: 'business',
@@ -195,7 +229,7 @@ i18next
                                     id: 2,
                                     name: 'Strategic partnerships',
                                     type: 'business',
-                                    data: 3,
+                                    data: 4,
                                     description: [
                                         {
                                             icon: 'business',
@@ -207,7 +241,7 @@ i18next
                                     id: 3,
                                     name: 'Leadership and management',
                                     type: 'business',
-                                    data: 4,
+                                    data: 5,
                                     description: [
                                         {
                                             icon: 'business',
@@ -223,7 +257,7 @@ i18next
                                     id: 4,
                                     name: 'Engagement and networking',
                                     type: 'business',
-                                    data: 5,
+                                    data: 6,
                                     description: [
                                         {
                                             icon: 'business',
@@ -235,7 +269,7 @@ i18next
                                     id: 5,
                                     name: 'Technological and operational leadership',
                                     type: 'tech',
-                                    data: 6,
+                                    data: 7,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -251,7 +285,7 @@ i18next
                                     id: 6,
                                     name: 'Architecture planning',
                                     type: 'tech',
-                                    data: 7,
+                                    data: 8,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -263,7 +297,7 @@ i18next
                                     id: 7,
                                     name: 'DevOps strategy',
                                     type: 'tech',
-                                    data: 8,
+                                    data: 9,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -275,7 +309,7 @@ i18next
                                     id: 8,
                                     name: 'Linux servers management',
                                     type: 'tech',
-                                    data: 9,
+                                    data: 10,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -287,7 +321,7 @@ i18next
                                     id: 9,
                                     name: 'Refactoring and upgrades',
                                     type: ['tech', 'success'],
-                                    data: 10,
+                                    data: 11,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -311,7 +345,7 @@ i18next
                                     id: 10,
                                     name: 'API improvements',
                                     type: ['tech', 'success'],
-                                    data: 11,
+                                    data: 12,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -356,7 +390,7 @@ i18next
                                     id: 11,
                                     name: 'Frontend and Backoffice improvements',
                                     type: ['tech', 'success'],
-                                    data: 12,
+                                    data: 13,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -381,7 +415,7 @@ i18next
                                     id: 12,
                                     name: 'Growth and Impact',
                                     type: ['business', 'success'],
-                                    data: 13,
+                                    data: 14,
                                     description: [
                                         {
                                             icon: 'business',
@@ -400,7 +434,7 @@ i18next
                             ],
                         },
                         {
-                            id: 3,
+                            id: 4,
                             logo:
                                 '/logo/expo.webp',
                             dates:
@@ -417,7 +451,7 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
-                                        data: 14,
+                                        data: 15,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -429,7 +463,7 @@ i18next
                                         id: 2,
                                         name: 'Marketing and budget strategy',
                                         type: 'business',
-                                        data: 15,
+                                        data: 16,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -449,7 +483,7 @@ i18next
                                         id: 3,
                                         name: 'Negotiations and partnerships',
                                         type: 'business',
-                                        data: 16,
+                                        data: 17,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -460,7 +494,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 4,
+                            id: 5,
                             logo:
                                 '/logo/trade-delegation.webp',
                             dates:
@@ -477,7 +511,7 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
-                                        data: 17,
+                                        data: 18,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -489,7 +523,7 @@ i18next
                                         id: 2,
                                         name: 'Strategic partnerships',
                                         type: 'business',
-                                        data: 18,
+                                        data: 19,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -513,7 +547,7 @@ i18next
                                         id: 3,
                                         name: 'Network development',
                                         type: 'business',
-                                        data: 19,
+                                        data: 20,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -525,7 +559,7 @@ i18next
                                         id: 4,
                                         name: '86 new international contracts signed',
                                         type: ['business', 'success'],
-                                        data: 20,
+                                        data: 21,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -541,7 +575,7 @@ i18next
                                         id: 5,
                                         name: 'Inter-ministry lobbying',
                                         type: ['business', 'success'],
-                                        data: 21,
+                                        data: 22,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -552,7 +586,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 5,
+                            id: 6,
                             logo:
                                 '/logo/trade-delegation.webp',
                             dates:
@@ -569,7 +603,7 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
-                                        data: 22,
+                                        data: 23,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -581,7 +615,7 @@ i18next
                                         id: 2,
                                         name: 'Negotiations',
                                         type: 'business',
-                                        data: 23,
+                                        data: 24,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -593,7 +627,7 @@ i18next
                                         id: 3,
                                         name: 'Research and reporting',
                                         type: 'business',
-                                        data: 24,
+                                        data: 25,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -605,7 +639,7 @@ i18next
                                         id: 4,
                                         name: 'International treaties signed',
                                         type: ['business', 'success'],
-                                        data: 25,
+                                        data: 26,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -621,7 +655,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 6,
+                            id: 7,
                             logo:
                                 '/logo/bearingpoint.webp',
                             dates:
@@ -637,7 +671,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 26,
+                                        data: 27,
                                         name: 'SAP R/3 implementation',
                                         description: [
                                             {
@@ -657,7 +691,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 7,
+                            id: 8,
                             logo:
                                 '/logo/uralsib.webp',
                             dates:
@@ -673,7 +707,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 27,
+                                        data: 28,
                                         name: 'Business process mapping',
                                         description: [
                                             {
@@ -805,7 +839,7 @@ i18next
                         tech: {
                             title: "Compétences",
                             languages: ['PHP', 'Java', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
-                            love: ['Tinkerwell', 'Ray', 'Expose'],
+                            love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok', 'Ngrok'],
                             frameworks: ['Laravel', 'Livewire', 'Spring Boot', 'FastAPI', 'Flask', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
                             tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'OpenServer'],
                             crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
@@ -900,8 +934,42 @@ i18next
                     jobs: [
                         {
                             id: 1,
+                            logo: '/logo/calendize.webp',
+                            dates: '2024 - Présent',
+                            company: 'Calendize.it',
+                            title: 'Fondateur',
+                            city: 'Paris',
+                            responsibilities: [
+                                {
+                                    id: 1,
+                                    name: "Réalisation de l'ensemble du projet micro-SAAS",
+                                    type: 'tech',
+                                    data: 1,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Idée',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Architecture',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Développement full-stack',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'CI/CD',
+                                        },
+                                    ],
+                                },
+                            ],
+                        },
+                        {
+                            id: 2,
                             logo: '/logo/impactmaker.webp',
-                            dates: '2023 - Présent',
+                            dates: '2023 - 2024',
                             company: 'ImpactMaker.ai',
                             title: 'CTO, Co-fondateur',
                             city: 'Paris',
@@ -910,7 +978,7 @@ i18next
                                     id: 1,
                                     name: "Planification de l'architecture et développement full-stack",
                                     type: 'tech',
-                                    data: 1,
+                                    data: 2,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -925,9 +993,9 @@ i18next
                             ],
                         },
                         {
-                            id: 2,
+                            id: 3,
                             logo: '/logo/globedreamers.webp',
-                            dates: '2019 - Présent',
+                            dates: '2019 - 2024',
                             company: 'GlobeDreamers',
                             title: 'COO/CTO, Co-fondateur',
                             city: 'Paris',
@@ -936,7 +1004,7 @@ i18next
                                     id: 1,
                                     name: 'Stratégie globale et innovation',
                                     type: 'business',
-                                    data: 2,
+                                    data: 3,
                                     description: [
                                         {
                                             icon: 'business',
@@ -952,7 +1020,7 @@ i18next
                                     id: 2,
                                     name: 'Partenariats stratégiques',
                                     type: 'business',
-                                    data: 3,
+                                    data: 4,
                                     description: [
                                         {
                                             icon: 'business',
@@ -964,7 +1032,7 @@ i18next
                                     id: 3,
                                     name: 'Leadership et management',
                                     type: 'business',
-                                    data: 4,
+                                    data: 5,
                                     description: [
                                         {
                                             icon: 'business',
@@ -980,7 +1048,7 @@ i18next
                                     id: 4,
                                     name: 'Engagement et networking',
                                     type: 'business',
-                                    data: 5,
+                                    data: 6,
                                     description: [
                                         {
                                             icon: 'business',
@@ -992,7 +1060,7 @@ i18next
                                     id: 5,
                                     name: 'Leadership technologique et opérationnel',
                                     type: 'tech',
-                                    data: 6,
+                                    data: 7,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -1008,7 +1076,7 @@ i18next
                                     id: 6,
                                     name: 'Planification de l\'architecture',
                                     type: 'tech',
-                                    data: 7,
+                                    data: 8,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -1020,7 +1088,7 @@ i18next
                                     id: 7,
                                     name: 'Stratégie DevOps',
                                     type: 'tech',
-                                    data: 8,
+                                    data: 9,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -1032,7 +1100,7 @@ i18next
                                     id: 8,
                                     name: 'Gestion des serveurs Linux',
                                     type: 'tech',
-                                    data: 9,
+                                    data: 10,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -1044,7 +1112,7 @@ i18next
                                     id: 9,
                                     name: 'Refactoring et mises à jour',
                                     type: ['tech', 'success'],
-                                    data: 10,
+                                    data: 11,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -1068,7 +1136,7 @@ i18next
                                     id: 10,
                                     name: 'Évolution d\'API',
                                     type: ['tech', 'success'],
-                                    data: 11,
+                                    data: 12,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -1117,7 +1185,7 @@ i18next
                                     id: 11,
                                     name: 'Évolution de Frontend et Backoffice',
                                     type: ['tech', 'success'],
-                                    data: 12,
+                                    data: 13,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -1142,7 +1210,7 @@ i18next
                                     id: 12,
                                     name: 'Croissance et impact',
                                     type: ['business', 'success'],
-                                    data: 13,
+                                    data: 14,
                                     description: [
                                         {
                                             icon: 'business',
@@ -1161,7 +1229,7 @@ i18next
                             ],
                         },
                         {
-                            id: 3,
+                            id: 4,
                             logo:
                                 '/logo/expo.webp',
                             dates:
@@ -1178,7 +1246,7 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
-                                        data: 14,
+                                        data: 15,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1190,7 +1258,7 @@ i18next
                                         id: 2,
                                         name: 'Stratégie marketing et budgétaire',
                                         type: 'business',
-                                        data: 15,
+                                        data: 16,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1210,7 +1278,7 @@ i18next
                                         id: 3,
                                         name: 'Négociations et partenariats',
                                         type: 'business',
-                                        data: 16,
+                                        data: 17,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1221,7 +1289,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 4,
+                            id: 5,
                             logo:
                                 '/logo/trade-delegation.webp',
                             dates:
@@ -1238,7 +1306,7 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
-                                        data: 17,
+                                        data: 18,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1250,7 +1318,7 @@ i18next
                                         id: 2,
                                         name: 'Partenariats stratégiques',
                                         type: 'business',
-                                        data: 18,
+                                        data: 19,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1274,7 +1342,7 @@ i18next
                                         id: 3,
                                         name: 'Développement du réseau',
                                         type: 'business',
-                                        data: 19,
+                                        data: 20,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1286,7 +1354,7 @@ i18next
                                         id: 4,
                                         name: '86 nouveaux contrats internationaux signés',
                                         type: ['business', 'success'],
-                                        data: 20,
+                                        data: 21,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1302,7 +1370,7 @@ i18next
                                         id: 5,
                                         name: 'Lobbying interministériel',
                                         type: ['business', 'success'],
-                                        data: 21,
+                                        data: 22,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1313,7 +1381,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 5,
+                            id: 6,
                             logo:
                                 '/logo/trade-delegation.webp',
                             dates:
@@ -1330,7 +1398,7 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
-                                        data: 22,
+                                        data: 23,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1342,7 +1410,7 @@ i18next
                                         id: 2,
                                         name: 'Négotiations',
                                         type: 'business',
-                                        data: 23,
+                                        data: 24,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1354,7 +1422,7 @@ i18next
                                         id: 3,
                                         name: 'Recherche et reporting',
                                         type: 'business',
-                                        data: 24,
+                                        data: 25,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1366,7 +1434,7 @@ i18next
                                         id: 4,
                                         name: 'Traités internationaux signés',
                                         type: ['business', 'success'],
-                                        data: 25,
+                                        data: 26,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1382,7 +1450,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 6,
+                            id: 7,
                             logo:
                                 '/logo/bearingpoint.webp',
                             dates:
@@ -1398,7 +1466,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 26,
+                                        data: 27,
                                         name: 'Implémentation de SAP R/3',
                                         description: [
                                             {
@@ -1418,7 +1486,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 7,
+                            id: 8,
                             logo:
                                 '/logo/uralsib.webp',
                             dates:
@@ -1434,7 +1502,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 27,
+                                        data: 28,
                                         name: 'Mapping de processus opérationnels',
                                         description: [
                                             {
