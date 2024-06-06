@@ -48,9 +48,9 @@ i18next
                         tech: {
                             title: 'Skills',
                             languages: ['PHP', 'Java', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
-                            love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok'],
+                            love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok', 'PHPUnit', 'Pest', 'Cypress'],
                             frameworks: ['Laravel', 'Livewire', 'Spring Boot', 'FastAPI', 'Flask', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
-                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'OpenServer'],
+                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker'],
                             crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
                             sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
                             adobe: ['Photoshop', 'Illustrator', 'Lightroom', 'Premiere', 'After Effects'],
@@ -839,9 +839,9 @@ i18next
                         tech: {
                             title: "Compétences",
                             languages: ['PHP', 'Java', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
-                            love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok', 'Ngrok'],
+                            love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok', 'PHPUnit', 'Pest', 'Cypress'],
                             frameworks: ['Laravel', 'Livewire', 'Spring Boot', 'FastAPI', 'Flask', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
-                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'OpenServer'],
+                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker'],
                             crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
                             sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
                             adobe: ['Photoshop', 'Illustrator', 'Lightroom', 'Premiere', 'After Effects'],
