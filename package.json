@@ -10,16 +10,16 @@
   },
   "dependencies": {
     "@animxyz/vue3": "^0.6.7",
-    "i18next": "^23.15.1",
+    "i18next": "^23.16.0",
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-vue": "^5.0.0",
-    "vue": "^3.5.8"
+    "vue": "^3.5.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.12",
-    "vite": "^5.4.7"
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.9"
   }
 }
