@@ -18,7 +18,7 @@ i18next
                     },
                     firstname: 'Anton',
                     lastname: 'Cherednichenko',
-                    post: 'CTO/COO/Lead Dev full-stack',
+                    post: 'CTO',
                     links: [
                         {
                             name: 'LinkedIn',
@@ -130,12 +130,12 @@ i18next
                                     mastery: 'Beginner',
                                     icon: '/flags/is.svg',
                                 },
-                                {
-                                    name: 'Lithuanian',
-                                    level: 1,
-                                    mastery: 'Beginner',
-                                    icon: '/flags/lt.svg',
-                                },
+                                // {
+                                //     name: 'Lithuanian',
+                                //     level: 1,
+                                //     mastery: 'Beginner',
+                                //     icon: '/flags/lt.svg',
+                                // },
                             ],
                         },
 
@@ -151,25 +151,53 @@ i18next
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: "Creation and shipping of the entire micro-SAAS project",
+                                    name: "Technology roadmap",
                                     type: 'tech',
                                     data: 1,
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Idea',
+                                            content: 'Created the technology roadmap for Calendize, a micro-SaaS project built from scratch, to streamline scheduling workflows.',
                                         },
                                         {
-                                            icon: 'tech',
-                                            content: 'Architecture',
+                                            icon: 'business',
+                                            content: 'Established the product’s vision, architecture, and delivery plan.',
                                         },
+                                    ],
+                                },
+                                {
+                                    id: 2,
+                                    name: "Tech stack",
+                                    type: 'tech',
+                                    data: 2,
+                                    description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Full-stack development',
+                                            content: 'Selected and implemented the tech stack to deliver real-time interactivity and scalable API architecture',
                                         },
+                                    ],
+                                },
+                                {
+                                    id: 3,
+                                    name: "CI/CD pipelines",
+                                    type: 'tech',
+                                    data: 3,
+                                    description: [
                                         {
                                             icon: 'tech',
-                                            content: 'CI/CD',
+                                            content: 'Introduced CI/CD pipelines to enable efficient iteration and future feature expansion',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 4,
+                                    name: "Architecture",
+                                    type: ['tech', 'success'],
+                                    data: 4,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Built a foundation for long-term scalability while ensuring seamless collaboration with early adopters',
                                         },
                                     ],
                                 },
@@ -185,17 +213,41 @@ i18next
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: 'Architecture planning and full-stack development',
+                                    name: 'Architecture',
                                     type: 'tech',
-                                    data: 2,
+                                    data: 5,
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Created, built and improved the Impact Maker app (a customisable real-time OpenAI-powered chatbot that helps users and companies find the best volunteering opportunities)',
+                                            content: 'Organized the architecture design process for a real-time OpenAI-powered chatbot, using an appropriate tech stack to ensure scalability and performance',
                                         },
                                         {
                                             icon: 'tech',
                                             content: 'Stack used: Vue.js, Tailwind CSS with a Laravel API connected via websockets)',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 2,
+                                    name: 'Team management',
+                                    type: 'business',
+                                    data: 6,
+                                    description: [
+                                        {
+                                            icon: 'business',
+                                            content: 'Built and managed a small high-performing development team, establishing workflows and processes to deliver the MVP on schedule',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 3,
+                                    name: 'Delivery optimization',
+                                    type: ['business', 'success'],
+                                    data: 7,
+                                    description: [
+                                        {
+                                            icon: 'business',
+                                            content: 'Translated business needs into technical solutions, overseeing the full-stack development and delivering a product that enhanced user engagement and company impact',
                                         },
                                     ],
                                 },
@@ -206,228 +258,62 @@ i18next
                             logo: '/logo/globedreamers.webp',
                             dates: '2019 - 2024',
                             company: 'GlobeDreamers',
-                            title: 'COO/CTO, Co-founder',
+                            title: 'CTO, Co-founder',
                             city: 'Paris',
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: 'Global strategy and innovation',
-                                    type: 'business',
-                                    data: 3,
+                                    name: 'Organizational scaling',
+                                    type: ['business', 'success'],
+                                    data: 8,
                                     description: [
                                         {
                                             icon: 'business',
-                                            content: 'Design and implementation of the company\'s development strategy (commercial, organizational, technical, search for investors)'
+                                            content: 'Scaled the company over five years, increasing total funds raised by 1,700% from €72,000 to €1,300,000.'
                                         },
                                         {
                                             icon: 'business',
-                                            content: 'Design and execution of commercial offers strategy for businesses, schools and media, contributing to significant growth of the platform',
+                                            content: 'Grew the platform\'s user base by 350%, from 4,000 to over 14,000 active users.',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Expanded the technical team from 2 to 18 members',
                                         },
                                     ],
                                 },
                                 {
                                     id: 2,
-                                    name: 'Strategic partnerships',
+                                    name: 'Agile and Shape Up Implementation',
                                     type: 'business',
-                                    data: 4,
+                                    data: 9,
                                     description: [
                                         {
                                             icon: 'business',
-                                            content: 'Initiation and management of partnerships with renowned entities such as the UN and the Red Cross, strengthening impact and international reach',
+                                            content: 'Implemented Agile and Shape Up methodologies, optimizing workflows and delivering key features faster, resulting in increased platform adoption and engagement',
                                         },
                                     ],
                                 },
                                 {
                                     id: 3,
-                                    name: 'Leadership and management',
-                                    type: 'business',
-                                    data: 5,
+                                    name: 'AI-driven feature',
+                                    type: ['tech', 'success'],
+                                    data: 10,
                                     description: [
                                         {
-                                            icon: 'business',
-                                            content: 'Financial, operational and human management',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Organization of teamwork, prioritization according to strategy, employee empowerment',
+                                            icon: 'tech',
+                                            content: 'Integrated AI-driven features, transforming platform capabilities and attracting new corporate partners, growing the total number of partnerships from 90 to over 800',
                                         },
                                     ],
                                 },
                                 {
                                     id: 4,
-                                    name: 'Engagement and networking',
-                                    type: 'business',
-                                    data: 6,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Active participation in B For Good Leaders, a global cooperative of leaders working for a regenerative economy',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 5,
-                                    name: 'Technological and operational leadership',
+                                    name: 'Tech stack',
                                     type: 'tech',
-                                    data: 7,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'In charge of the technological aspect of the platform and optimizing operational and financial processes'
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Choice of technologies, implementation of CI/CD, full-stack development, supervision of an agile team of subcontractor developers'
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 6,
-                                    name: 'Architecture planning',
-                                    type: 'tech',
-                                    data: 8,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Re-planned and built the 3-app GlobeDreamers platform (api, frontend and backoffice apps)',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 7,
-                                    name: 'DevOps strategy',
-                                    type: 'tech',
-                                    data: 9,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Re-written and improved the CD/CI pipelines, added code quality checks and testing',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 8,
-                                    name: 'Linux servers management',
-                                    type: 'tech',
-                                    data: 10,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Updated staging and production servers (Ubuntu upgrades, new PHP versions, nginx settings, certificates updates, etc)',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 9,
-                                    name: 'Refactoring and upgrades',
-                                    type: ['tech', 'success'],
                                     data: 11,
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Refactored the codebase (75% rewritten from scratch) for 3 projects: API, Frontend and Backoffice',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'PHP update (5.6 to 8.3)'
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Laravel update (5.7 to 10.41)'
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Vue3 and Livewire integration for Frontend and Backoffice apps'
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 10,
-                                    name: 'API improvements',
-                                    type: ['tech', 'success'],
-                                    data: 12,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Planned, re-written, cleaned and improved the platform architecture, the database structure and its organization',
-                                        },
-                                        {
-                                            icon: 'sublist',
-                                            content: "<li>Separation of concerns</li>" +
-                                                "<li>Re-planned and re-organised models and classes structure</li>" +
-                                                "<li>Refactoring of “fat” controllers into Requests, Services and Jobs</li>" +
-                                                "<li>Introduced API versioning</li>" +
-                                                "<li>Cleaned out hundreds of N+1 queries</li>" +
-                                                "<li>Ensured proper Eloquent use and eager resources loading</li>",
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Increased codebase coverage from 0% to 98% with 670 feature and 12 unit tests, later refactored from PHPUnit to Pest, kept test coverage constant while developing new features',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Integrated 3rd party APIs: Google Maps, Mangopay, ClickUp, Calendly, Hubspot, Brevo, LaGrowthMachine, Typeform, OpenAI…',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Realtime sync between API and frontend via Websockets',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Invoice PDF auto generation',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'AI chatbot',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'And many more...',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 11,
-                                    name: 'Frontend and Backoffice improvements',
-                                    type: ['tech', 'success'],
-                                    data: 13,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Rewritten two frontend apps integrally to increase its dynamic responsiveness and integrate AI features, as well as new models'
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Replaced the deprecated mix of Bootstrap, SCSS and CSS with Tailwind'
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Refactored obsolete Blade/jQuery interfaces to :'
-                                        },
-                                        {
-                                            icon: 'sublist',
-                                            content: '<li>Frontend  – Vue.js SPA (Vue3 Composition API)</li>' +
-                                                '<li>Backoffice – Livewire app</li>',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 12,
-                                    name: 'Growth and Impact',
-                                    type: ['business', 'success'],
-                                    data: 14,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Fundraising by the platform increased from €72\u00A0000 to €1\u00A0300\u00A0000',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Growth of user base from 4k to 12k users',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'New corporate partners - growth from 90 to 800, with key partnerships like the Orange Foundation, Outdoor Sports Valley, and others',
+                                            content: 'Modernized the tech stack with extensive codebase refactoring, API optimization, and CI/CD implementation, reducing operational costs while improving scalability and system performance',
                                         },
                                     ],
                                 },
@@ -451,43 +337,51 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
-                                        data: 15,
+                                        data: 12,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Operations management of the 12-person branch office in Paris',
+                                                content: 'Led the international strategy for Russia\'s bid for Expo 2025, managing a team of 12 in Paris',
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: 'Directed global outreach and partnership negotiations with representatives from over 170 countries.',
                                             },
                                         ],
                                     },
                                     {
                                         id: 2,
-                                        name: 'Marketing and budget strategy',
+                                        name: 'Development strategy',
                                         type: 'business',
-                                        data: 16,
+                                        data: 13,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Design and follow-up of the marketing strategy (campaign, events, visual identity) and operational plan',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Budget management (20\u00A0000\u00A0000\u00A0€)',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Definition, monitoring and reporting of KPIs',
+                                                content: 'Designed and executed a comprehensive development strategy while managing a €20M budget and ensuring its alignment with the KPIs',
                                             },
                                         ],
                                     },
                                     {
                                         id: 3,
                                         name: 'Negotiations and partnerships',
-                                        type: 'business',
-                                        data: 17,
+                                        type: ['business', 'success'],
+                                        data: 14,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Prospection and establishment of partnerships with high-level representatives from 170 countries, "big deals" negotiation',
+                                                content: 'Established high-impact partnerships and conducted "big deal" negotiations with international stakeholders',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 4,
+                                        name: 'Team management',
+                                        type: 'business',
+                                        data: 15,
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Fostered team collaboration and streamlined operations to deliver results under tight deadlines, showcasing adaptability and leadership in high-pressure international contexts',
                                             },
                                         ],
                                     },
@@ -511,75 +405,47 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
-                                        data: 18,
+                                        data: 16,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Operations management of a 15-person division, responsible for advising senior executives of Russian and French companies in their international development strategies',
+                                                content: 'Managed the 15-person division, responsible for advising senior executives of Russian and French companies in their international development strategies',
                                             },
                                         ],
                                     },
                                     {
                                         id: 2,
-                                        name: 'Strategic partnerships',
-                                        type: 'business',
-                                        data: 19,
+                                        name: 'Team performance',
+                                        type: ['business', 'success'],
+                                        data: 17,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'New market development',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Establishment of strategic partnerships',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Promotion of international cooperation',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Definition, monitoring and reporting of KPIs',
+                                                content: 'Developed and implemented processes for team coordination and project prioritization, improving efficiency and enabling the division to exceed targets by 260% in signed contract value (€130M vs. €50M goal)',
                                             },
                                         ],
                                     },
                                     {
                                         id: 3,
-                                        name: 'Network development',
+                                        name: 'Team management',
                                         type: 'business',
-                                        data: 20,
+                                        data: 18,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Creation of a network of partners in France and Russia',
+                                                content: 'Mentored and empowered team members to drive performance and achieve objectives, building a culture of accountability and growth',
                                             },
                                         ],
                                     },
                                     {
+                                        name: 'Strategic partnerships',
                                         id: 4,
-                                        name: '86 new international contracts signed',
                                         type: ['business', 'success'],
-                                        data: 21,
+                                        data: 19,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: '86 new international contracts signed (SMEs and large companies) in various sectors: aviation, composite materials, IT, microelectronics, mass distribution, public safety, robotics, tourism, energy, transport'
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Surpassed the goals by 260% on signed contracts value (130\u00A0000\u00A0000€ instead of 50\u00A0000\u00A0000€)'
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 5,
-                                        name: 'Inter-ministry lobbying',
-                                        type: ['business', 'success'],
-                                        data: 22,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Successful lobbying and signature of the Franco-Russian cooperation strategy in the innovations domain',
+                                                content: 'Oversaw strategic partnerships and market development efforts, facilitating 86 new international contracts across sectors such as aviation, IT, energy, and public safety',
                                             },
                                         ],
                                     },
@@ -603,7 +469,7 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
-                                        data: 23,
+                                        data: 20,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -615,7 +481,7 @@ i18next
                                         id: 2,
                                         name: 'Negotiations',
                                         type: 'business',
-                                        data: 24,
+                                        data: 21,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -627,7 +493,7 @@ i18next
                                         id: 3,
                                         name: 'Research and reporting',
                                         type: 'business',
-                                        data: 25,
+                                        data: 22,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -639,7 +505,7 @@ i18next
                                         id: 4,
                                         name: 'International treaties signed',
                                         type: ['business', 'success'],
-                                        data: 26,
+                                        data: 23,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -671,7 +537,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 27,
+                                        data: 24,
                                         name: 'SAP R/3 implementation',
                                         description: [
                                             {
@@ -707,7 +573,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 28,
+                                        data: 25,
                                         name: 'Business process mapping',
                                         description: [
                                             {
@@ -809,7 +675,7 @@ i18next
                     },
                     firstname: 'Anton',
                     lastname: 'Cherednichenko',
-                    post: 'CTO/COO/Lead Dev full-stack',
+                    post: 'CTO',
                     links: [
                         {
                             name: 'LinkedIn',
@@ -921,12 +787,12 @@ i18next
                                     mastery: 'Notions',
                                     icon: '/flags/is.svg',
                                 },
-                                {
-                                    name: 'Lithuanien',
-                                    level: 1,
-                                    mastery: 'Notions',
-                                    icon: '/flags/lt.svg',
-                                },
+                                // {
+                                //     name: 'Lithuanien',
+                                //     level: 1,
+                                //     mastery: 'Notions',
+                                //     icon: '/flags/lt.svg',
+                                // },
                             ],
                         },
 
@@ -942,25 +808,53 @@ i18next
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: "Réalisation de l'ensemble du projet micro-SAAS",
+                                    name: "Roadmap technologique",
                                     type: 'tech',
                                     data: 1,
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Idée',
+                                            content: 'Établi la roadmap technologique pour Calendize, un projet micro-SaaS conçu de zéro, afin d’optimiser les workflows de planification.',
                                         },
                                         {
-                                            icon: 'tech',
-                                            content: 'Architecture',
+                                            icon: 'business',
+                                            content: 'Défini la vision du produit, de son architecture et de son plan de livraison.',
                                         },
+                                    ],
+                                },
+                                {
+                                    id: 2,
+                                    name: "Tech stack",
+                                    type: 'tech',
+                                    data: 2,
+                                    description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Développement full-stack',
+                                            content: 'Sélectionné et implementé la tech stack pour offrir une interactivité en temps réel et une architecture API évolutive',
                                         },
+                                    ],
+                                },
+                                {
+                                    id: 3,
+                                    name: "Pipelines CI/CD",
+                                    type: 'tech',
+                                    data: 3,
+                                    description: [
                                         {
                                             icon: 'tech',
-                                            content: 'CI/CD',
+                                            content: 'Introduit des pipelines CI/CD pour permettre des itérations efficaces et une expansion future des fonctionnalités',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 4,
+                                    name: "Architecture",
+                                    type: ['tech', 'success'],
+                                    data: 4,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Construit une base solide pour les évolutions à venir, en assurant une collaboration fluide avec les premiers utilisateurs.',
                                         },
                                     ],
                                 },
@@ -976,17 +870,41 @@ i18next
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: "Planification de l'architecture et développement full-stack",
+                                    name: 'Architecture',
                                     type: 'tech',
-                                    data: 2,
+                                    data: 5,
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Création, construction et amélioration de l\'application Impact Maker (un chatbot personnalisable en temps réel alimenté par OpenAI qui aide les utilisateurs à trouver les meilleures opportunités de bénévolat)',
+                                            content: 'Conçu l’architecture d’un chatbot en temps réel basé sur OpenAI, avec une tech stack pensée pour garantir performance et évolutivité',
                                         },
                                         {
                                             icon: 'tech',
-                                            content: 'Stack utilisé: Vue.js, Tailwind CSS avec l\'API Laravel connecté via websockets)',
+                                            content: 'Stack utiliée: Vue.js, Tailwind CSS avec API Laravel connecté via websockets)',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 2,
+                                    name: 'Gestion d\'équipe',
+                                    type: 'business',
+                                    data: 6,
+                                    description: [
+                                        {
+                                            icon: 'business',
+                                            content: 'Monté et encadré une petite équipe de développeurs performants, en définissant des workflows et les processus clairs pour livrer le MVP dans les délais définis',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 3,
+                                    name: 'Supervision du développement full-stack',
+                                    type: ['business', 'success'],
+                                    data: 7,
+                                    description: [
+                                        {
+                                            icon: 'business',
+                                            content: 'Transformé les besoins d’entreprise en solutions concrètes, supervisé le développement full-stack et livré un produit qui booste l’engagement des utilisateurs et l’impact des entreprises',
                                         },
                                     ],
                                 },
@@ -997,232 +915,62 @@ i18next
                             logo: '/logo/globedreamers.webp',
                             dates: '2019 - 2024',
                             company: 'GlobeDreamers',
-                            title: 'COO/CTO, Co-fondateur',
+                            title: 'CTO, Co-fondateur',
                             city: 'Paris',
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: 'Stratégie globale et innovation',
-                                    type: 'business',
-                                    data: 3,
+                                    name: 'Gestion de la croissance',
+                                    type: ['business', 'success'],
+                                    data: 8,
                                     description: [
                                         {
                                             icon: 'business',
-                                            content: "Conception et mise en œuvre de la stratégie de développement de l'entreprise (commerciale, organisationnelle, technique, recherche d'investisseurs)",
+                                            content: 'Fait évoluer l’entreprise sur cinq ans, en augmentant les fonds levés de 1700%, passant de 72000€ à 1300000€.'
                                         },
                                         {
                                             icon: 'business',
-                                            content: "Conception et création d'offres commerciales pour les entreprises, les écoles et les médias, contribuant à la croissance significative de la plateforme",
+                                            content: 'Croissance de la base d’utilisateurs de la plateforme de 350%, de 4000 à plus de 14000 utilisateurs actifs.',
+                                        },
+                                        {
+                                            icon: 'tech',
+                                            content: 'Agrandi l’effectif de l’équipe technique de 2 à 18.',
                                         },
                                     ],
                                 },
                                 {
                                     id: 2,
-                                    name: 'Partenariats stratégiques',
+                                    name: 'Implémentation Agile and Shape Up',
                                     type: 'business',
-                                    data: 4,
+                                    data: 9,
                                     description: [
                                         {
                                             icon: 'business',
-                                            content: "Initiation et gestion de partenariats avec des entités de renom telles que l'ONU et la Croix Rouge, renforçant l'impact et la portée internationale",
+                                            content: 'Mis en place les méthodologies Agile et Shape Up, optimisant les workflows et accélérant la livraison des fonctionnalités principales, ce qui a contribué à l’adoption et l’engagement sur la plateforme',
                                         },
                                     ],
                                 },
                                 {
                                     id: 3,
-                                    name: 'Leadership et management',
-                                    type: 'business',
-                                    data: 5,
+                                    name: 'Fonctionnalités IA',
+                                    type: ['tech', 'success'],
+                                    data: 10,
                                     description: [
                                         {
-                                            icon: 'business',
-                                            content: 'Gestion financière, opérationnelle et humaine',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Organisation du travail en équipe, priorisation selon la stratégie, responsabilisation des collaborateurs',
+                                            icon: 'tech',
+                                            content: 'Intégré des fonctionnalités basées sur l’IA, améliorant la plateforme et attirant de nouveaux partenaires corporatifs, faisant passer le nombre total de partenariats de 90 à plus de 800',
                                         },
                                     ],
                                 },
                                 {
                                     id: 4,
-                                    name: 'Engagement et networking',
-                                    type: 'business',
-                                    data: 6,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Participation active à B For Good Leaders, une coopérative mondiale de dirigeants œuvrant pour une économie régénérative',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 5,
-                                    name: 'Leadership technologique et opérationnel',
+                                    name: 'Tech stack',
                                     type: 'tech',
-                                    data: 7,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'En charge de l\'aspect technologique de la plateforme et de l\'optimisation des processus opérationnels et financiers'
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Choix des technologies, mise en place du CI/CD, développement full-stack, encadrement d\'une équipe agile de développeurs sous-traitants'
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 6,
-                                    name: 'Planification de l\'architecture',
-                                    type: 'tech',
-                                    data: 8,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Construction de l\'intégralité de la plateforme GlobeDreamers (applications api, frontend et backoffice)',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 7,
-                                    name: 'Stratégie DevOps',
-                                    type: 'tech',
-                                    data: 9,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Réécriture et amélioration des pipelines CD/CI, ajout de contrôles de qualité du code et de tests fonctionnels et unitaires',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 8,
-                                    name: 'Gestion des serveurs Linux',
-                                    type: 'tech',
-                                    data: 10,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Mise à jour des serveurs de staging et de production (mises à niveau Ubuntu, nouvelles versions de PHP, paramètres nginx, mises à jour de certificats, etc.)',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 9,
-                                    name: 'Refactoring et mises à jour',
-                                    type: ['tech', 'success'],
                                     data: 11,
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Refactoring de la base de code (réécrite à 75% à partir de zéro) pour 3 projets : API, Frontend, Back-office',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Mise à jour de PHP (5.6 à 8.3)'
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Mise à jour de Laravel (5.7 à 10.41)'
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Intégration Vue3 et Livewire pour les applications Frontend et Backoffice'
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 10,
-                                    name: 'Évolution d\'API',
-                                    type: ['tech', 'success'],
-                                    data: 12,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Planifié, réécrit, nettoyé et amélioré l\'architecture de la plateforme, la structure de la base de données et son organisation.',
-                                        },
-                                        {
-                                            icon: 'sublist',
-                                            content: '<li>"Separation of concerns"</li>' +
-                                                "<li>Planification et organisation des modèles et des classes</li>" +
-                                                '<li>Refactoring des "gros" Controllers en Requests, Services et Jobs</li>' +
-                                                '<li>Versionnement des API</li>' +
-                                                "<li>Nettoyage de centaines de requêtes N+1</li>" +
-                                                "<li>Refactoring pour utilisation appropriée d’Eloquent et un chargement pre emptif (eager loading) des ressources</li>",
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Couverture de la base de code (0% à 98%) avec 670 tests fonctionnels et 12 tests unitaires, refactorisés ultérieurement de PHPUnit vers Pest',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Maintient de la couverture des tests constante tout en développant du nouveau code',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'API tierces intégrées : Google Maps, Mangopay, ClickUp, Calendly, Hubspot, Brevo, LaGrowthMachine, Typeform, OpenAI…',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Synchronisation en temps réel entre l\'API et le frontend via Websockets',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Génération automatique des factures en PDF',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Chatbot IA',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Et beaucoup plus...',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 11,
-                                    name: 'Évolution de Frontend et Backoffice',
-                                    type: ['tech', 'success'],
-                                    data: 13,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Réécriture intégrale de deux apps pour augmenter la réactivité dynamique et intégrer des fonctionnalités d\'IA, ainsi que de nouveaux modèles'
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Mélange obsolète de Bootstrap, SCSS et CSS remplacé par Tailwind'
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Refactoring de l’interface obsolète Blade/jQuery en :'
-                                        },
-                                        {
-                                            icon: 'sublist',
-                                            content: '<li>Frontend  – une SPA Vue.js (Vue3 Composition API)</li>' +
-                                                '<li>Backoffice – une application Livewire</li>',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 12,
-                                    name: 'Croissance et impact',
-                                    type: ['business', 'success'],
-                                    data: 14,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Collecte de fonds par la plateforme augmentée de €72\u00A0000 à €1\u00A0300\u00A0000',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Croissance de la base d\'utilisateurs de 4\u00A0000 à 12\u00A0000',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Nouveaux partenaires commerciaux - croissance de 90 à 800, avec des partenariats clés comme la Fondation Orange, Outdoor Sports Valley, etc',
+                                            content: 'Modernisé la tech stack grâce à un refactoring approfondi du code, une optimisation de l’API et la mise en place de pipelines CI/CD, réduisant les coûts opérationnels et améliorant la scalabilité et les performances',
                                         },
                                     ],
                                 },
@@ -1246,43 +994,51 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
-                                        data: 15,
+                                        data: 12,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Gestion des opérations du comité à Paris (12 personnes)',
+                                                content: 'Piloté la stratégie internationale pour la candidature de la Russie à l’Expo 2025, en gérant une équipe de 12 à Paris.',
+                                            },
+                                            {
+                                                icon: 'business',
+                                                content: 'Responsable de rayonnement global, négocié des partenariats avec des représentants de 170 pays.',
                                             },
                                         ],
                                     },
                                     {
                                         id: 2,
-                                        name: 'Stratégie marketing et budgétaire',
+                                        name: 'Stratégie de développement',
                                         type: 'business',
-                                        data: 16,
+                                        data: 13,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Conception et suivi de la stratégie marketing (campagne, événements, identité visuelle) et du plan opérationnel',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Gestion du budget (20\u00A0000\u00A0000\u00A0€)',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Définition, suivi et reporting des KPI',
+                                                content: 'Développé et exécuté une stratégie complète tout en gérant un budget de 20 M€, avec un suivi précis des KPI pour assurer les résultats',
                                             },
                                         ],
                                     },
                                     {
                                         id: 3,
-                                        name: 'Négociations et partenariats',
-                                        type: 'business',
-                                        data: 17,
+                                        name: 'Négotiations et partenariats',
+                                        type: ['business', 'success'],
+                                        data: 14,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Prospection et mise en place de partenariats avec les hauts représentants de 170 pays, négociation des "big deals"',
+                                                content: 'Établi des partenariats stratégiques clés et négocié des accords majeurs avec des acteurs internationaux',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 4,
+                                        name: 'Gestion de l\'équipe',
+                                        type: 'business',
+                                        data: 15,
+                                        description: [
+                                            {
+                                                icon: 'business',
+                                                content: 'Favorisé la collaboration au sein de l’équipe et rationalisé les opérations pour livrer des résultats dans des délais serrés, démontrant une grande capacité d’adaptation et un leadership solide sous pression dans des contextes internationaux',
                                             },
                                         ],
                                     },
@@ -1306,75 +1062,47 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
-                                        data: 18,
+                                        data: 16,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Gestion des opérations de l\'équipe de 15 personnes, chargée de conseil aux cadres supérieurs des entreprises russes et françaises dans leur stratégies de développement international',
+                                                content: 'Géré une division de 15 personnes, chargée de conseiller les cadres des entreprises russes et françaises dans leurs stratégies de développement international',
                                             },
                                         ],
                                     },
                                     {
                                         id: 2,
-                                        name: 'Partenariats stratégiques',
-                                        type: 'business',
-                                        data: 19,
+                                        name: 'Performance de l\'équipe',
+                                        type: ['business', 'success'],
+                                        data: 17,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Prospection de nouveaux marchés',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Mise en place de partenariats stratégiques',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Promotion de la coopération internationale',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Définition, suivi et reporting des KPI',
+                                                content: 'Mis en place et optimisé des processus de coordination d’équipe et de priorisation des projets, améliorant l’efficacité et permettant à la division de dépasser ses objectifs de 260 % en valeur de contrats signés (130 M€ contre un objectif de 50 M€)',
                                             },
                                         ],
                                     },
                                     {
                                         id: 3,
-                                        name: 'Développement du réseau',
+                                        name: 'Gestion de l\'équipe',
                                         type: 'business',
-                                        data: 20,
+                                        data: 18,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: 'Création du réseau de partenaires en France et en Russie',
+                                                content: 'Encadré et responsabilisé les membres de l’équipe pour améliorer leurs performances et atteindre leurs objectifs, tout en instaurant une culture d’excellence et de l’entraide',
                                             },
                                         ],
                                     },
                                     {
+                                        name: 'Partenariats strategiques',
                                         id: 4,
-                                        name: '86 nouveaux contrats internationaux signés',
                                         type: ['business', 'success'],
-                                        data: 21,
+                                        data: 19,
                                         description: [
                                             {
                                                 icon: 'business',
-                                                content: '86 nouveaux contrats internationaux signés (PME et grands comptes) dans les secteurs variés : aviation, matériaux composites, informatique, microélectronique, grande distribution, sécurité publique, robotique, tourisme, énergie, transportation'
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: '+260% sur objectif des contrats signés (130\u00A0000\u00A0000€ au lieu de 50\u00A0000\u00A0000€)'
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 5,
-                                        name: 'Lobbying interministériel',
-                                        type: ['business', 'success'],
-                                        data: 22,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Lobbying réussi et signature de la stratégie de coopération franco-russe dans le domaine de l\'innovation',
+                                                content: 'Supervisé les partenariats stratégiques et les efforts de développement de marché, facilitant la signature de 86 nouveaux contrats internationaux dans des secteurs comme l’aviation, l’informatique, l’énergie et la sécurité publique',
                                             },
                                         ],
                                     },
@@ -1398,7 +1126,7 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
-                                        data: 23,
+                                        data: 20,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1410,7 +1138,7 @@ i18next
                                         id: 2,
                                         name: 'Négotiations',
                                         type: 'business',
-                                        data: 24,
+                                        data: 21,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1422,7 +1150,7 @@ i18next
                                         id: 3,
                                         name: 'Recherche et reporting',
                                         type: 'business',
-                                        data: 25,
+                                        data: 22,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1434,7 +1162,7 @@ i18next
                                         id: 4,
                                         name: 'Traités internationaux signés',
                                         type: ['business', 'success'],
-                                        data: 26,
+                                        data: 23,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1466,7 +1194,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 27,
+                                        data: 24,
                                         name: 'Implémentation de SAP R/3',
                                         description: [
                                             {
@@ -1502,7 +1230,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 28,
+                                        data: 25,
                                         name: 'Mapping de processus opérationnels',
                                         description: [
                                             {
