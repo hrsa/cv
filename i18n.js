@@ -143,10 +143,10 @@ i18next
                     jobs: [
                         {
                             id: 1,
-                            logo: '/logo/calendize.webp',
+                            logo: '/logo/legalcheck.webp',
                             dates: '2024 - Present',
-                            company: 'Calendize.it',
-                            title: 'Founder',
+                            company: 'LegalCheck',
+                            title: 'Co-Founder',
                             city: 'Paris',
                             responsibilities: [
                                 {
@@ -157,7 +157,7 @@ i18next
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Created the technology roadmap for Calendize, a micro-SaaS project built from scratch, to streamline scheduling workflows.',
+                                            content: 'Created the technology roadmap for LegalCheck, an automated AI assistant for legal teams.',
                                         },
                                         {
                                             icon: 'business',
@@ -197,7 +197,7 @@ i18next
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Built a foundation for long-term scalability while ensuring seamless collaboration with early adopters',
+                                            content: 'Created the app architecture with a React Native frontend and FastAPI on the backend',
                                         },
                                     ],
                                 },
@@ -205,6 +205,118 @@ i18next
                         },
                         {
                             id: 2,
+                            logo: '/logo/friendstonight.webp',
+                            dates: '2024 - Present',
+                            company: 'Friends Tonight',
+                            title: 'Founder',
+                            city: 'Paris',
+                            responsibilities: [
+                                {
+                                    id: 1,
+                                    name: "Technology roadmap",
+                                    type: 'tech',
+                                    data: 5,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Created the technology roadmap for Friends Tonight, a custom meetup app for international communities.',
+                                        },
+                                        {
+                                            icon: 'business',
+                                            content: 'Established the product’s vision, architecture, and delivery plan.',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 2,
+                                    name: "Tech stack",
+                                    type: 'tech',
+                                    data: 6,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Selected and implemented the tech stack to deliver real-time interactivity and scalable API architecture',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 3,
+                                    name: "Architecture",
+                                    type: ['tech', 'success'],
+                                    data: 7,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Created the app architecture with a Flutter frontend and Express.js on the backend',
+                                        },
+                                    ],
+                                },
+                            ],
+                        },
+                        {
+                            id: 3,
+                            logo: '/logo/calendize.webp',
+                            dates: '2024 - Present',
+                            company: 'Calendize.it',
+                            title: 'Founder',
+                            city: 'Paris',
+                            responsibilities: [
+                                {
+                                    id: 1,
+                                    name: "Technology roadmap",
+                                    type: 'tech',
+                                    data: 8,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Created the technology roadmap for Calendize, a micro-SaaS project built from scratch, to streamline scheduling workflows.',
+                                        },
+                                        {
+                                            icon: 'business',
+                                            content: 'Established the product’s vision, architecture, and delivery plan.',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 2,
+                                    name: "Tech stack",
+                                    type: 'tech',
+                                    data: 9,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Selected and implemented the tech stack to deliver real-time interactivity and scalable API architecture',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 3,
+                                    name: "CI/CD pipelines",
+                                    type: 'tech',
+                                    data: 10,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Introduced CI/CD pipelines to enable efficient iteration and future feature expansion',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 4,
+                                    name: "Architecture",
+                                    type: ['tech', 'success'],
+                                    data: 11,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Built a foundation for long-term scalability while ensuring seamless collaboration with early adopters',
+                                        },
+                                    ],
+                                },
+                            ],
+                        },
+                        {
+                            id: 4,
                             logo: '/logo/impactmaker.webp',
                             dates: '2023 - 2024',
                             company: 'ImpactMaker.ai',
@@ -215,7 +327,7 @@ i18next
                                     id: 1,
                                     name: 'Architecture',
                                     type: 'tech',
-                                    data: 5,
+                                    data: 12,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -231,7 +343,7 @@ i18next
                                     id: 2,
                                     name: 'Team management',
                                     type: 'business',
-                                    data: 6,
+                                    data: 13,
                                     description: [
                                         {
                                             icon: 'business',
@@ -243,7 +355,7 @@ i18next
                                     id: 3,
                                     name: 'Delivery optimization',
                                     type: ['business', 'success'],
-                                    data: 7,
+                                    data: 14,
                                     description: [
                                         {
                                             icon: 'business',
@@ -254,7 +366,7 @@ i18next
                             ],
                         },
                         {
-                            id: 3,
+                            id: 5,
                             logo: '/logo/globedreamers.webp',
                             dates: '2019 - 2024',
                             company: 'GlobeDreamers',
@@ -265,7 +377,7 @@ i18next
                                     id: 1,
                                     name: 'Organizational scaling',
                                     type: ['business', 'success'],
-                                    data: 8,
+                                    data: 15,
                                     description: [
                                         {
                                             icon: 'business',
@@ -285,7 +397,7 @@ i18next
                                     id: 2,
                                     name: 'Agile and Shape Up Implementation',
                                     type: 'business',
-                                    data: 9,
+                                    data: 16,
                                     description: [
                                         {
                                             icon: 'business',
@@ -297,7 +409,7 @@ i18next
                                     id: 3,
                                     name: 'AI-driven feature',
                                     type: ['tech', 'success'],
-                                    data: 10,
+                                    data: 17,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -309,7 +421,7 @@ i18next
                                     id: 4,
                                     name: 'Tech stack',
                                     type: 'tech',
-                                    data: 11,
+                                    data: 18,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -320,7 +432,7 @@ i18next
                             ],
                         },
                         {
-                            id: 4,
+                            id: 6,
                             logo:
                                 '/logo/expo.webp',
                             dates:
@@ -337,7 +449,7 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
-                                        data: 12,
+                                        data: 19,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -353,7 +465,7 @@ i18next
                                         id: 2,
                                         name: 'Development strategy',
                                         type: 'business',
-                                        data: 13,
+                                        data: 20,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -365,7 +477,7 @@ i18next
                                         id: 3,
                                         name: 'Negotiations and partnerships',
                                         type: ['business', 'success'],
-                                        data: 14,
+                                        data: 21,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -377,7 +489,7 @@ i18next
                                         id: 4,
                                         name: 'Team management',
                                         type: 'business',
-                                        data: 15,
+                                        data: 22,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -388,7 +500,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 5,
+                            id: 7,
                             logo:
                                 '/logo/trade-delegation.webp',
                             dates:
@@ -405,7 +517,7 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
-                                        data: 16,
+                                        data: 23,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -417,7 +529,7 @@ i18next
                                         id: 2,
                                         name: 'Team performance',
                                         type: ['business', 'success'],
-                                        data: 17,
+                                        data: 24,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -429,7 +541,7 @@ i18next
                                         id: 3,
                                         name: 'Team management',
                                         type: 'business',
-                                        data: 18,
+                                        data: 25,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -441,7 +553,7 @@ i18next
                                         name: 'Strategic partnerships',
                                         id: 4,
                                         type: ['business', 'success'],
-                                        data: 19,
+                                        data: 26,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -452,7 +564,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 6,
+                            id: 8,
                             logo:
                                 '/logo/trade-delegation.webp',
                             dates:
@@ -469,7 +581,7 @@ i18next
                                         id: 1,
                                         name: 'Operations management',
                                         type: 'business',
-                                        data: 20,
+                                        data: 27,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -481,7 +593,7 @@ i18next
                                         id: 2,
                                         name: 'Negotiations',
                                         type: 'business',
-                                        data: 21,
+                                        data: 28,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -493,7 +605,7 @@ i18next
                                         id: 3,
                                         name: 'Research and reporting',
                                         type: 'business',
-                                        data: 22,
+                                        data: 29,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -505,7 +617,7 @@ i18next
                                         id: 4,
                                         name: 'International treaties signed',
                                         type: ['business', 'success'],
-                                        data: 23,
+                                        data: 30,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -521,7 +633,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 7,
+                            id: 9,
                             logo:
                                 '/logo/bearingpoint.webp',
                             dates:
@@ -537,7 +649,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 24,
+                                        data: 31,
                                         name: 'SAP R/3 implementation',
                                         description: [
                                             {
@@ -557,7 +669,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 8,
+                            id: 10,
                             logo:
                                 '/logo/uralsib.webp',
                             dates:
@@ -573,7 +685,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 25,
+                                        data: 32,
                                         name: 'Business process mapping',
                                         description: [
                                             {
@@ -800,10 +912,10 @@ i18next
                     jobs: [
                         {
                             id: 1,
-                            logo: '/logo/calendize.webp',
+                            logo: '/logo/legalcheck.webp',
                             dates: '2024 - Présent',
-                            company: 'Calendize.it',
-                            title: 'Fondateur',
+                            company: 'LegalCheck',
+                            title: 'Co-fondateur',
                             city: 'Paris',
                             responsibilities: [
                                 {
@@ -814,11 +926,11 @@ i18next
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Établi la roadmap technologique pour Calendize, un projet micro-SaaS conçu de zéro, afin d’optimiser les workflows de planification.',
+                                            content: 'Établi la roadmap technologique pour LegalCheck, un assistant IA automatisé pour les équipes juridiques',
                                         },
                                         {
                                             icon: 'business',
-                                            content: 'Défini la vision du produit, de son architecture et de son plan de livraison.',
+                                            content: 'Défini la vision du produit, de son architecture et de son plan de livraison',
                                         },
                                     ],
                                 },
@@ -836,7 +948,7 @@ i18next
                                 },
                                 {
                                     id: 3,
-                                    name: "Pipelines CI/CD",
+                                    name: "CI/CD pipelines",
                                     type: 'tech',
                                     data: 3,
                                     description: [
@@ -854,7 +966,7 @@ i18next
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Construit une base solide pour les évolutions à venir, en assurant une collaboration fluide avec les premiers utilisateurs.',
+                                            content: "Création de l'architecture de l'application avec un frontend React Native et FastAPI sur le backend",
                                         },
                                     ],
                                 },
@@ -862,6 +974,118 @@ i18next
                         },
                         {
                             id: 2,
+                            logo: '/logo/friendstonight.webp',
+                            dates: '2024 - Présent',
+                            company: 'Friends Tonight',
+                            title: 'Fondateur',
+                            city: 'Paris',
+                            responsibilities: [
+                                {
+                                    id: 1,
+                                    name: "Roadmap technologique",
+                                    type: 'tech',
+                                    data: 5,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Établi la roadmap technologique pour Friends Tonight, une application de rencontre personnalisée pour les communautés internationales',
+                                        },
+                                        {
+                                            icon: 'business',
+                                            content: 'Défini la vision du produit, de son architecture et de son plan de livraison',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 2,
+                                    name: "Tech stack",
+                                    type: 'tech',
+                                    data: 6,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Sélectionné et implementé la tech stack pour offrir une interactivité en temps réel et une architecture API évolutive',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 3,
+                                    name: "Architecture",
+                                    type: ['tech', 'success'],
+                                    data: 7,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: "Création de l'architecture de l'application avec un frontend Flutter et Express.js sur le backend",
+                                        },
+                                    ],
+                                },
+                            ],
+                        },
+                        {
+                            id: 3,
+                            logo: '/logo/calendize.webp',
+                            dates: '2024 - Présent',
+                            company: 'Calendize.it',
+                            title: 'Fondateur',
+                            city: 'Paris',
+                            responsibilities: [
+                                {
+                                    id: 1,
+                                    name: "Roadmap technologique",
+                                    type: 'tech',
+                                    data: 8,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Établi la roadmap technologique pour Calendize, un projet micro-SaaS conçu de zéro, afin d’optimiser les workflows de planification.',
+                                        },
+                                        {
+                                            icon: 'business',
+                                            content: 'Défini la vision du produit, de son architecture et de son plan de livraison.',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 2,
+                                    name: "Tech stack",
+                                    type: 'tech',
+                                    data: 9,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Sélectionné et implementé la tech stack pour offrir une interactivité en temps réel et une architecture API évolutive',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 3,
+                                    name: "Pipelines CI/CD",
+                                    type: 'tech',
+                                    data: 10,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Introduit des pipelines CI/CD pour permettre des itérations efficaces et une expansion future des fonctionnalités',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 4,
+                                    name: "Architecture",
+                                    type: ['tech', 'success'],
+                                    data: 11,
+                                    description: [
+                                        {
+                                            icon: 'tech',
+                                            content: 'Construit une base solide pour les évolutions à venir, en assurant une collaboration fluide avec les premiers utilisateurs.',
+                                        },
+                                    ],
+                                },
+                            ],
+                        },
+                        {
+                            id: 4,
                             logo: '/logo/impactmaker.webp',
                             dates: '2023 - 2024',
                             company: 'ImpactMaker.ai',
@@ -872,7 +1096,7 @@ i18next
                                     id: 1,
                                     name: 'Architecture',
                                     type: 'tech',
-                                    data: 5,
+                                    data: 12,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -888,7 +1112,7 @@ i18next
                                     id: 2,
                                     name: 'Gestion d\'équipe',
                                     type: 'business',
-                                    data: 6,
+                                    data: 13,
                                     description: [
                                         {
                                             icon: 'business',
@@ -900,7 +1124,7 @@ i18next
                                     id: 3,
                                     name: 'Supervision du développement full-stack',
                                     type: ['business', 'success'],
-                                    data: 7,
+                                    data: 14,
                                     description: [
                                         {
                                             icon: 'business',
@@ -911,7 +1135,7 @@ i18next
                             ],
                         },
                         {
-                            id: 3,
+                            id: 5,
                             logo: '/logo/globedreamers.webp',
                             dates: '2019 - 2024',
                             company: 'GlobeDreamers',
@@ -922,7 +1146,7 @@ i18next
                                     id: 1,
                                     name: 'Gestion de la croissance',
                                     type: ['business', 'success'],
-                                    data: 8,
+                                    data: 15,
                                     description: [
                                         {
                                             icon: 'business',
@@ -942,7 +1166,7 @@ i18next
                                     id: 2,
                                     name: 'Implémentation Agile and Shape Up',
                                     type: 'business',
-                                    data: 9,
+                                    data: 16,
                                     description: [
                                         {
                                             icon: 'business',
@@ -954,7 +1178,7 @@ i18next
                                     id: 3,
                                     name: 'Fonctionnalités IA',
                                     type: ['tech', 'success'],
-                                    data: 10,
+                                    data: 17,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -966,7 +1190,7 @@ i18next
                                     id: 4,
                                     name: 'Tech stack',
                                     type: 'tech',
-                                    data: 11,
+                                    data: 18,
                                     description: [
                                         {
                                             icon: 'tech',
@@ -977,7 +1201,7 @@ i18next
                             ],
                         },
                         {
-                            id: 4,
+                            id: 6,
                             logo:
                                 '/logo/expo.webp',
                             dates:
@@ -994,7 +1218,7 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
-                                        data: 12,
+                                        data: 19,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1010,7 +1234,7 @@ i18next
                                         id: 2,
                                         name: 'Stratégie de développement',
                                         type: 'business',
-                                        data: 13,
+                                        data: 20,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1022,7 +1246,7 @@ i18next
                                         id: 3,
                                         name: 'Négotiations et partenariats',
                                         type: ['business', 'success'],
-                                        data: 14,
+                                        data: 21,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1034,7 +1258,7 @@ i18next
                                         id: 4,
                                         name: 'Gestion de l\'équipe',
                                         type: 'business',
-                                        data: 15,
+                                        data: 22,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1045,7 +1269,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 5,
+                            id: 7,
                             logo:
                                 '/logo/trade-delegation.webp',
                             dates:
@@ -1062,7 +1286,7 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
-                                        data: 16,
+                                        data: 23,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1074,7 +1298,7 @@ i18next
                                         id: 2,
                                         name: 'Performance de l\'équipe',
                                         type: ['business', 'success'],
-                                        data: 17,
+                                        data: 24,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1086,7 +1310,7 @@ i18next
                                         id: 3,
                                         name: 'Gestion de l\'équipe',
                                         type: 'business',
-                                        data: 18,
+                                        data: 25,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1098,7 +1322,7 @@ i18next
                                         name: 'Partenariats strategiques',
                                         id: 4,
                                         type: ['business', 'success'],
-                                        data: 19,
+                                        data: 26,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1109,7 +1333,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 6,
+                            id: 8,
                             logo:
                                 '/logo/trade-delegation.webp',
                             dates:
@@ -1126,7 +1350,7 @@ i18next
                                         id: 1,
                                         name: 'Gestion des opérations',
                                         type: 'business',
-                                        data: 20,
+                                        data: 27,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1138,7 +1362,7 @@ i18next
                                         id: 2,
                                         name: 'Négotiations',
                                         type: 'business',
-                                        data: 21,
+                                        data: 28,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1150,7 +1374,7 @@ i18next
                                         id: 3,
                                         name: 'Recherche et reporting',
                                         type: 'business',
-                                        data: 22,
+                                        data: 29,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1162,7 +1386,7 @@ i18next
                                         id: 4,
                                         name: 'Traités internationaux signés',
                                         type: ['business', 'success'],
-                                        data: 23,
+                                        data: 30,
                                         description: [
                                             {
                                                 icon: 'business',
@@ -1178,7 +1402,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 7,
+                            id: 9,
                             logo:
                                 '/logo/bearingpoint.webp',
                             dates:
@@ -1194,7 +1418,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 24,
+                                        data: 31,
                                         name: 'Implémentation de SAP R/3',
                                         description: [
                                             {
@@ -1214,7 +1438,7 @@ i18next
                                 ],
                         },
                         {
-                            id: 8,
+                            id: 10,
                             logo:
                                 '/logo/uralsib.webp',
                             dates:
@@ -1230,7 +1454,7 @@ i18next
                                     {
                                         id: 1,
                                         type: 'tech',
-                                        data: 25,
+                                        data: 32,
                                         name: 'Mapping de processus opérationnels',
                                         description: [
                                             {
