@@ -508,7 +508,7 @@ i18next
                             company:
                                 'Trade Delegation of the Russian Federation in France',
                             title:
-                                'Deputy Commercial Director',
+                                'Deputy Trade Division Director',
                             city:
                                 'Paris',
                             responsibilities:
@@ -930,7 +930,7 @@ i18next
                                         },
                                         {
                                             icon: 'business',
-                                            content: 'Défini la vision du produit, de son architecture et de son plan de livraison',
+                                            content: 'Défini la vision du produit, son architecture et son plan de livraison',
                                         },
                                     ],
                                 },
@@ -992,7 +992,7 @@ i18next
                                         },
                                         {
                                             icon: 'business',
-                                            content: 'Défini la vision du produit, de son architecture et de son plan de livraison',
+                                            content: 'Défini la vision du produit, son architecture et son plan de livraison',
                                         },
                                     ],
                                 },
@@ -1042,7 +1042,7 @@ i18next
                                         },
                                         {
                                             icon: 'business',
-                                            content: 'Défini la vision du produit, de son architecture et de son plan de livraison.',
+                                            content: 'Défini la vision du produit, son architecture et son plan de livraison.',
                                         },
                                     ],
                                 },
@@ -1104,7 +1104,7 @@ i18next
                                         },
                                         {
                                             icon: 'tech',
-                                            content: 'Stack utiliée: Vue.js, Tailwind CSS avec API Laravel connecté via websockets)',
+                                            content: 'Stack utilisée: Vue.js, Tailwind CSS avec API Laravel connecté via websockets)',
                                         },
                                     ],
                                 },
@@ -1277,7 +1277,7 @@ i18next
                             company:
                                 'Délégation Économique de Russie en France',
                             title:
-                                'Directeur commercial adjoint',
+                                'Directeur adjoint de la division commerciale',
                             city:
                                 'Paris',
                             responsibilities:
