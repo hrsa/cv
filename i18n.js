@@ -47,9 +47,9 @@ i18next
                     about: {
                         tech: {
                             title: 'Skills',
-                            languages: ['PHP', 'Java', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
+                            languages: ['PHP', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
                             love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok', 'PHPUnit', 'Pest', 'Cypress'],
-                            frameworks: ['Laravel', 'Livewire', 'Spring Boot', 'FastAPI', 'Flask', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
+                            frameworks: ['Laravel', 'Livewire', 'FastAPI', 'Flask', 'Express.js', 'Vue.js', 'React', 'React Native', 'Inertia.js', 'Tailwind'],
                             tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker'],
                             crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
                             sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
@@ -269,7 +269,7 @@ i18next
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Created the technology roadmap for Calendize, a micro-SaaS project built from scratch, to streamline scheduling workflows.',
+                                            content: 'Created the technology roadmap for Calendize, a micro-SaaS project to streamline scheduling workflows.',
                                         },
                                         {
                                             icon: 'business',
@@ -816,9 +816,9 @@ i18next
                     about: {
                         tech: {
                             title: "Compétences",
-                            languages: ['PHP', 'Java', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
+                            languages: ['PHP', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
                             love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok', 'PHPUnit', 'Pest', 'Cypress'],
-                            frameworks: ['Laravel', 'Livewire', 'Spring Boot', 'FastAPI', 'Flask', 'Vue.js', 'React.js', 'Inertia.js', 'Tailwind'],
+                            frameworks: ['Laravel', 'Livewire', 'FastAPI', 'Flask', 'Express.js', 'Vue.js', 'React', 'React Native', 'Inertia.js', 'Tailwind'],
                             tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker'],
                             crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
                             sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
@@ -1038,7 +1038,7 @@ i18next
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Établi la roadmap technologique pour Calendize, un projet micro-SaaS conçu de zéro, afin d’optimiser les workflows de planification.',
+                                            content: 'Établi la roadmap technologique pour Calendize, un projet micro-SaaS, afin d’optimiser les workflows de planification.',
                                         },
                                         {
                                             icon: 'business',
