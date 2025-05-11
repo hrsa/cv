@@ -143,9 +143,9 @@ i18next
                     jobs: [
                         {
                             id: 1,
-                            logo: '/logo/icebreaker.webp',
+                            logo: '/logo/icemelter.webp',
                             dates: '2025 - Present',
-                            company: 'IceBreaker',
+                            company: 'IceMelter',
                             title: 'Founder',
                             city: 'Paris',
                             responsibilities: [
@@ -157,7 +157,7 @@ i18next
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Created the technology roadmap for IceBreaker, a mobile/web card game that helps strangers to become friends and find deep connections.',
+                                            content: 'Created the technology roadmap for IceMelter, a mobile/web card game that helps strangers to become friends and find deep connections.',
                                         },
                                         {
                                             icon: 'business',
@@ -974,9 +974,9 @@ i18next
                     jobs: [
                         {
                             id: 1,
-                            logo: '/logo/icebreaker.webp',
+                            logo: '/logo/icemelter.webp',
                             dates: '2025 - Présent',
-                            company: 'IceBreaker',
+                            company: 'IceMelter',
                             title: 'Fondateur',
                             city: 'Paris',
                             responsibilities: [
@@ -988,7 +988,7 @@ i18next
                                     description: [
                                         {
                                             icon: 'tech',
-                                            content: 'Établi la roadmap technologique pour IceBreaker, un jeu de cartes mobile/web qui aide les inconnus à devenir amis et à trouver des liens profonds',
+                                            content: 'Établi la roadmap technologique pour IceMelter, un jeu de cartes mobile/web qui aide les inconnus à devenir amis et à trouver des liens profonds',
                                         },
                                         {
                                             icon: 'business',
