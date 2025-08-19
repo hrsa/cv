@@ -17,7 +17,7 @@ i18next
                         fr: 'French',
                     },
                     firstname: 'Anton',
-                    lastname: 'Cherednichenko',
+                    lastname: 'Cher',
                     post: 'CTO',
                     links: [
                         {
@@ -37,7 +37,7 @@ i18next
                         },
                         {
                             name: 'Download CV',
-                            url: 'https://anton.eco/cv/en_cv_anton_cherednichenko.pdf',
+                            url: 'https://anton.eco/cv/CTO - Anton Cher EN.pdf',
                             icon: '/download.webp',
                         },
                     ],
@@ -50,7 +50,7 @@ i18next
                             languages: ['PHP', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
                             love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok', 'PHPUnit', 'Pest', 'Cypress'],
                             frameworks: ['Laravel', 'Nest.js', 'Livewire', 'FastAPI', 'Flask', 'Express.js', 'Vue.js', 'React', 'React Native', 'Inertia.js', 'Tailwind'],
-                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker'],
+                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'k8s'],
                             crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
                             sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
                             adobe: ['Photoshop', 'Illustrator', 'Lightroom', 'Premiere', 'After Effects'],
@@ -848,7 +848,7 @@ i18next
                         fr: 'Français',
                     },
                     firstname: 'Anton',
-                    lastname: 'Cherednichenko',
+                    lastname: 'Cher',
                     post: 'CTO',
                     links: [
                         {
@@ -868,7 +868,7 @@ i18next
                         },
                         {
                             name: 'Télécharger le CV',
-                            url: 'https://anton.eco/cv/fr_cv_anton_cherednichenko.pdf',
+                            url: 'https://anton.eco/cv/CTO - Anton Cher FR.pdf',
                             icon: '/download.webp',
                         },
                     ],
@@ -881,7 +881,7 @@ i18next
                             languages: ['PHP', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
                             love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok', 'PHPUnit', 'Pest', 'Cypress'],
                             frameworks: ['Laravel', 'Nest.js', 'Livewire', 'FastAPI', 'Flask', 'Express.js', 'Vue.js', 'React', 'React Native', 'Inertia.js', 'Tailwind'],
-                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker'],
+                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'k8s'],
                             crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
                             sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
                             adobe: ['Photoshop', 'Illustrator', 'Lightroom', 'Premiere', 'After Effects'],
