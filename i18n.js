@@ -18,7 +18,7 @@ i18next
                     },
                     firstname: 'Anton',
                     lastname: 'Cher',
-                    post: 'CTO',
+                    post: 'CTO / Engineering Manager',
                     links: [
                         {
                             name: 'LinkedIn',
@@ -849,7 +849,7 @@ i18next
                     },
                     firstname: 'Anton',
                     lastname: 'Cher',
-                    post: 'CTO',
+                    post: 'CTO / Engineering Manager',
                     links: [
                         {
                             name: 'LinkedIn',
