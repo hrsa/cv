@@ -16,7 +16,7 @@ const bgColor = computed(() => {
   } else if (props.responsibility.type === 'tech') {
     return 'bg-blue-700';
   } else {
-    return '';
+    return 'bg-gray-700';
   }
 })
 
@@ -27,7 +27,7 @@ const emit = defineEmits(['selectResponsibility']);
 <template>
   <div
       :class="bgColor"
-      class=" grid grid-cols-1 rounded-2xl py-1 px-3 cursor-pointer bg-opacity-55 backdrop-blur-xl hover:bg-green-600 sm:inline-flex gap-4 items-center place-items-center"
+      class=" grid grid-cols-1 rounded-2xl py-2 px-4 cursor-pointer bg-opacity-55 backdrop-blur-xl hover:bg-green-600 sm:inline-flex gap-4 items-center place-items-center"
       @click="emit('selectResponsibility', responsibility)">
     <div class="flex gap-4" v-if="Array.isArray(responsibility.type)">
       <img
@@ -37,7 +37,7 @@ const emit = defineEmits(['selectResponsibility']);
           :src="`/${type}.webp`" class="h-8 mt-1 sm:mt-0"/>
     </div>
     <img
-        v-else
+        v-if="typeof (responsibility.type) === 'string'"
         :alt="responsibility.type"
         :src="`/${responsibility.type}.webp`" class="h-8 mt-1 sm:mt-0"/>
     <p class="text-xl sm:text-base">{{ responsibility.name }}</p>

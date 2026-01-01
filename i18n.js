@@ -18,11 +18,11 @@ i18next
                     },
                     firstname: 'Anton',
                     lastname: 'Cher',
-                    post: 'CTO / Engineering Manager',
+                    post: 'Hands-on CTO | VP of Engineering',
                     links: [
                         {
                             name: 'LinkedIn',
-                            url: 'https://www.linkedin.com/in/hrsart/',
+                            url: 'https://www.linkedin.com/in/anton-cher/',
                             icon: '/linkedin.webp',
                         },
                         {
@@ -37,23 +37,39 @@ i18next
                         },
                         {
                             name: 'Download CV',
-                            url: 'https://anton.eco/cv/CTO - Anton Cher EN.pdf',
+                            url: 'https://anton.eco/cv/Anton Cher EN.pdf',
                             icon: '/download.webp',
                         },
                     ],
+                    summary: "Using executive experience and tech expertise, I help companies turn product-market " +
+                        "fit into a scalable reality, owning the entire lifecycle, from initial architecture to cloud deployment.<p class='mt-2'>" +
+                        "I am as comfortable in the boardroom discussing P&L and strategy as I am with the engineering team," +
+                        "architecting distributed systems or conducting deep-dive code reviews.",
                     experience: 'Experience',
                     education: 'Education',
                     skills: 'Skills',
                     about: {
                         tech: {
                             title: 'Skills',
-                            languages: ['PHP', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
-                            love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok', 'PHPUnit', 'Pest', 'Cypress'],
-                            frameworks: ['Laravel', 'Nest.js', 'Livewire', 'FastAPI', 'Flask', 'Express.js', 'Vue.js', 'React', 'React Native', 'Inertia.js', 'Tailwind'],
-                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'k8s'],
-                            crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
-                            sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
-                            adobe: ['Photoshop', 'Illustrator', 'Lightroom', 'Premiere', 'After Effects'],
+                            tech: ['Python (FastAPI)',
+                                'TypeScript (React, Node.js)',
+                                'PHP (Laravel)',
+                                'AI/RAG & LangChain',
+                                'AWS & Kubernetes',
+                                'Docker & CI/CD',
+                                'Microservices',
+                                'PostgreSQL & Vector DBs'],
+                            business: ['Product Strategy',
+                                'Agile & Shape Up',
+                                'Team Leadership',
+                                'MVP-to-Scale',
+                                'Budget Management',
+                                'Stakeholder Management'],
+                            frameworks: [],
+                            tools: [],
+                            crm: [],
+                            sales: [],
+                            adobe: [],
                         },
                         languages: {
                             title: 'Languages',
@@ -143,61 +159,62 @@ i18next
                     jobs: [
                         {
                             id: 1,
-                            logo: '/logo/icemelter.webp',
-                            dates: '2025 - Present',
-                            company: 'IceMelter',
-                            title: 'Founder',
+                            logo: ['/logo/calendize.webp', '/logo/legalcheck.webp', '/logo/friendstonight.webp', '/logo/icemelter.webp'],
+                            dates: '2024 - Present',
+                            company: 'Interim CTO',
+                            title: '',
                             city: 'Paris',
+                            summary: 'Acting as a technical partner for early-stage ventures and building high-performance SaaS products',
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: "Technology roadmap",
-                                    type: 'tech',
+                                    name: "Calendize",
+                                    subtitle: 'SaaS scheduling platform',
+                                    type: null,
                                     data: 1,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Created the technology roadmap for IceMelter, a mobile/web card game that helps strangers to become friends and find deep connections.',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Established the product’s vision, architecture, and delivery plan.',
+                                            icon: null,
+                                            content: 'Designed, built, and launched a feature-rich SaaS application from concept to market, including CI/CD pipelines for efficient iteration and a scalable architecture for early adopters',
                                         },
                                     ],
                                 },
                                 {
                                     id: 2,
-                                    name: "Tech stack",
-                                    type: 'tech',
+                                    name: "LegalCheck",
+                                    subtitle: 'Automated AI assistant for legal teams featuring advanced analysis and RAG capabilities',
+                                    type: null,
                                     data: 2,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Selected and implemented the tech stack to deliver real-time interactivity and scalable API architecture',
+                                            icon: null,
+                                            content: 'Created and deployed a mobile/web application integrating AI features with complex data processing',
                                         },
                                     ],
                                 },
                                 {
                                     id: 3,
-                                    name: "CI/CD pipelines",
-                                    type: 'tech',
+                                    name: "Friends Tonight",
+                                    subtitle: 'Facilitate connections within international communities through a custom meetup platform',
+                                    type: null,
                                     data: 3,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Introduced CI/CD pipelines to enable efficient iteration and future feature expansion',
+                                            icon: null,
+                                            content: '•\tDeveloped and launched a cross-platform mobile application (iOS & Android) with a robust backend, enabling users to organize and discover local events',
                                         },
                                     ],
                                 },
                                 {
                                     id: 4,
-                                    name: "Architecture",
-                                    type: ['tech', 'success'],
+                                    name: "IceMelter",
+                                    subtitle: 'Cross-platform card game experience to help strangers build deeper connections',
+                                    type: null,
                                     data: 4,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Created the app architecture with a React Native frontend and Nest.js on the backend',
+                                            icon: null,
+                                            content: 'Built and launched a mobile/web card game, establishing the technology roadmap, product vision, and implementing infrastructure for user engagement and future expansion',
                                         },
                                     ],
                                 },
@@ -205,61 +222,46 @@ i18next
                         },
                         {
                             id: 2,
-                            logo: '/logo/legalcheck.webp',
-                            dates: '2026 - Present',
-                            company: 'LegalCheck',
-                            title: 'Co-Founder',
+                            logo: '/logo/impactmaker.webp',
+                            dates: '2023 - 2024',
+                            company: 'ImpactMaker.ai',
+                            title: 'CTO',
+                            summary: 'Overseeing the entire product lifecycle from concept to MVP',
                             city: 'Paris',
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: "Technology roadmap",
-                                    type: 'tech',
+                                    name: 'MVP creation',
+                                    type: null,
                                     data: 5,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Created the technology roadmap for LegalCheck, an automated AI assistant for legal teams.',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Established the product’s vision, architecture, and delivery plan.',
+                                            icon: null,
+                                            content: 'Built an MVP using PHP/Laravel, later refactoring core algorithms for data processing',
                                         },
                                     ],
                                 },
                                 {
                                     id: 2,
-                                    name: "Tech stack",
-                                    type: 'tech',
+                                    name: 'Team management',
+                                    type: null,
                                     data: 6,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Selected and implemented the tech stack to deliver real-time interactivity and scalable API architecture',
+                                            icon: null,
+                                            content: 'Built and managed a lean team of 3 engineers and 1 designer, establishing workflows and processes to deploy the product on schedule',
                                         },
                                     ],
                                 },
                                 {
                                     id: 3,
-                                    name: "CI/CD pipelines",
-                                    type: 'tech',
+                                    name: 'Business model validation',
+                                    type: null,
                                     data: 7,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Introduced CI/CD pipelines to enable efficient iteration and future feature expansion',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 4,
-                                    name: "Architecture",
-                                    type: ['tech', 'success'],
-                                    data: 8,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Created the app architecture with a React Native frontend and FastAPI on the backend',
+                                            icon: null,
+                                            content: 'Successfully onboarded initial B2B clients and validated the business model',
                                         },
                                     ],
                                 },
@@ -267,49 +269,45 @@ i18next
                         },
                         {
                             id: 3,
-                            logo: '/logo/friendstonight.webp',
-                            dates: '2024 - Present',
-                            company: 'Friends Tonight',
-                            title: 'Founder',
+                            logo: '/logo/globedreamers.webp',
+                            dates: '2019 - 2024',
+                            company: 'GlobeDreamers',
+                            title: 'CTO & Co-founder',
+                            summary: 'Led the technical vision and engineering team for a global crowdfunding platform',
                             city: 'Paris',
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: "Technology roadmap",
-                                    type: 'tech',
-                                    data: 9,
+                                    name: 'Team management',
+                                    type: null,
+                                    data: 8,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Created the technology roadmap for Friends Tonight, a custom meetup app for international communities.',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Established the product’s vision, architecture, and delivery plan.',
+                                            content: 'Built and managed a cross-functional team of 18 engineers (Front, Back, QA, DevOps)'
+                                        },{
+                                            content: 'Implemented Agile/Scrum and Shape Up'
                                         },
                                     ],
                                 },
                                 {
                                     id: 2,
-                                    name: "Tech stack",
-                                    type: 'tech',
-                                    data: 10,
+                                    name: 'Architecture migration',
+                                    type: null,
+                                    data: 9,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Selected and implemented the tech stack to deliver real-time interactivity and scalable API architecture',
+                                            content: 'Migrated a legacy monolithic system to a modern microservices architecture (Laravel/React/AWS), resulting in a 300% increase in platform stability and performance',
                                         },
                                     ],
                                 },
                                 {
                                     id: 3,
-                                    name: "Architecture",
-                                    type: ['tech', 'success'],
-                                    data: 11,
+                                    name: 'Business strategy',
+                                    type: null,
+                                    data: 10,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Created the app architecture with a Flutter frontend and Express.js on the backend',
+                                            content: 'Collaborated with the CEO on fundraising and business strategy, translating investor requirements into technical milestones',
                                         },
                                     ],
                                 },
@@ -317,385 +315,62 @@ i18next
                         },
                         {
                             id: 4,
-                            logo: '/logo/calendize.webp',
-                            dates: '2024 - Present',
-                            company: 'Calendize.it',
-                            title: 'Founder',
-                            city: 'Paris',
-                            responsibilities: [
-                                {
-                                    id: 1,
-                                    name: "Technology roadmap",
-                                    type: 'tech',
-                                    data: 12,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Created the technology roadmap for Calendize, a micro-SaaS project to streamline scheduling workflows.',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Established the product’s vision, architecture, and delivery plan.',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 2,
-                                    name: "Tech stack",
-                                    type: 'tech',
-                                    data: 13,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Selected and implemented the tech stack to deliver real-time interactivity and scalable API architecture',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 3,
-                                    name: "CI/CD pipelines",
-                                    type: 'tech',
-                                    data: 14,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Introduced CI/CD pipelines to enable efficient iteration and future feature expansion',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 4,
-                                    name: "Architecture",
-                                    type: ['tech', 'success'],
-                                    data: 15,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Built a foundation for long-term scalability while ensuring seamless collaboration with early adopters',
-                                        },
-                                    ],
-                                },
-                            ],
+                            logo:
+                                ['/logo/oecd.webp', '/logo/trade-delegation.webp', '/logo/expo.webp'],
+                            dates:
+                                '2010 - 2019',
+                            company:
+                                'International organizations',
+                            title:
+                                'Technology-Driven Leadership & Operations',
+                            summary: 'Senior-level management roles in international development and strategic operations',
+                            city:
+                                'Paris',
+                            responsibilities:
+                                [
+                                    {
+                                        id: 1,
+                                        name: 'Operations management',
+                                        type: null,
+                                        data: 11,
+                                        description: [
+                                            {
+                                                content: 'Managed a €20M+ budget and led a 15-person cross-functional team, fostering a culture of high accountability and mentorship',
+                                            }
+                                        ],
+                                    },
+                                    {
+                                        id: 2,
+                                        name: 'Data reporting modernization',
+                                        type: null,
+                                        data: 12,
+                                        description: [
+                                            {
+                                                content: 'Drove the modernization of data-reporting systems',
+                                            },
+                                            {
+                                                content: 'Translated business needs into technical requirements to automate manual administrative processes',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 3,
+                                        name: 'C-level negotiations and partnerships',
+                                        type: null,
+                                        data: 13,
+                                        description: [
+                                            {
+                                                content: 'Managed relationships with government and corporate representatives (150+ countries)',
+                                            },
+                                            {
+                                                content: 'This background enables me to effectively manage expectations and negotiate priorities with C-level executives',
+                                            },
+                                        ],
+                                    },
+                                ],
                         },
                         {
                             id: 5,
-                            logo: '/logo/impactmaker.webp',
-                            dates: '2023 - 2024',
-                            company: 'ImpactMaker.ai',
-                            title: 'CTO, Co-founder',
-                            city: 'Paris',
-                            responsibilities: [
-                                {
-                                    id: 1,
-                                    name: 'Architecture',
-                                    type: 'tech',
-                                    data: 16,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Organized the architecture design process for a real-time OpenAI-powered chatbot, using an appropriate tech stack to ensure scalability and performance',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Stack used: Vue.js, Tailwind CSS with a Laravel API connected via websockets)',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 2,
-                                    name: 'Team management',
-                                    type: 'business',
-                                    data: 17,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Built and managed a small high-performing development team, establishing workflows and processes to deliver the MVP on schedule',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 3,
-                                    name: 'Delivery optimization',
-                                    type: ['business', 'success'],
-                                    data: 18,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Translated business needs into technical solutions, overseeing the full-stack development and delivering a product that enhanced user engagement and company impact',
-                                        },
-                                    ],
-                                },
-                            ],
-                        },
-                        {
-                            id: 6,
-                            logo: '/logo/globedreamers.webp',
-                            dates: '2019 - 2024',
-                            company: 'GlobeDreamers',
-                            title: 'CTO, Co-founder',
-                            city: 'Paris',
-                            responsibilities: [
-                                {
-                                    id: 1,
-                                    name: 'Organizational scaling',
-                                    type: ['business', 'success'],
-                                    data: 19,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Scaled the company over five years, increasing total funds raised by 1,700% from €72,000 to €1,300,000.'
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Grew the platform\'s user base by 350%, from 4,000 to over 14,000 active users.',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Expanded the technical team from 2 to 18 members',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 2,
-                                    name: 'Agile and Shape Up Implementation',
-                                    type: 'business',
-                                    data: 20,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Implemented Agile and Shape Up methodologies, optimizing workflows and delivering key features faster, resulting in increased platform adoption and engagement',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 3,
-                                    name: 'AI-driven feature',
-                                    type: ['tech', 'success'],
-                                    data: 21,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Integrated AI-driven features, transforming platform capabilities and attracting new corporate partners, growing the total number of partnerships from 90 to over 800',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 4,
-                                    name: 'Tech stack',
-                                    type: 'tech',
-                                    data: 22,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Modernized the tech stack with extensive codebase refactoring, API optimization, and CI/CD implementation, reducing operational costs while improving scalability and system performance',
-                                        },
-                                    ],
-                                },
-                            ],
-                        },
-                        {
-                            id: 7,
-                            logo:
-                                '/logo/expo.webp',
-                            dates:
-                                '2017 - 2019',
-                            company:
-                                'Russia World Expo-2025 Bid Committee',
-                            title:
-                                'Director of international development',
-                            city:
-                                'Paris',
-                            responsibilities:
-                                [
-                                    {
-                                        id: 1,
-                                        name: 'Operations management',
-                                        type: 'business',
-                                        data: 23,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Led the international strategy for Russia\'s bid for Expo 2025, managing a team of 12 in Paris',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Directed global outreach and partnership negotiations with representatives from over 170 countries.',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 2,
-                                        name: 'Development strategy',
-                                        type: 'business',
-                                        data: 24,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Designed and executed a comprehensive development strategy while managing a €20M budget and ensuring its alignment with the KPIs',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 3,
-                                        name: 'Negotiations and partnerships',
-                                        type: ['business', 'success'],
-                                        data: 25,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Established high-impact partnerships and conducted "big deal" negotiations with international stakeholders',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 4,
-                                        name: 'Team management',
-                                        type: 'business',
-                                        data: 26,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Fostered team collaboration and streamlined operations to deliver results under tight deadlines, showcasing adaptability and leadership in high-pressure international contexts',
-                                            },
-                                        ],
-                                    },
-                                ],
-                        },
-                        {
-                            id: 8,
-                            logo:
-                                '/logo/trade-delegation.webp',
-                            dates:
-                                '2012 - 2017',
-                            company:
-                                'Trade Delegation of the Russian Federation in France',
-                            title:
-                                'Deputy Trade Division Director',
-                            city:
-                                'Paris',
-                            responsibilities:
-                                [
-                                    {
-                                        id: 1,
-                                        name: 'Operations management',
-                                        type: 'business',
-                                        data: 27,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Managed the 15-person division, responsible for advising senior executives of Russian and French companies in their international development strategies',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 2,
-                                        name: 'Team performance',
-                                        type: ['business', 'success'],
-                                        data: 28,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Developed and implemented processes for team coordination and project prioritization, improving efficiency and enabling the division to exceed targets by 260% in signed contract value (€130M vs. €50M goal)',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 3,
-                                        name: 'Team management',
-                                        type: 'business',
-                                        data: 29,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Mentored and empowered team members to drive performance and achieve objectives, building a culture of accountability and growth',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        name: 'Strategic partnerships',
-                                        id: 4,
-                                        type: ['business', 'success'],
-                                        data: 30,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Oversaw strategic partnerships and market development efforts, facilitating 86 new international contracts across sectors such as aviation, IT, energy, and public safety',
-                                            },
-                                        ],
-                                    },
-                                ],
-                        },
-                        {
-                            id: 9,
-                            logo:
-                                '/logo/trade-delegation.webp',
-                            dates:
-                                '2010 - 2012',
-                            company:
-                                'Trade Delegation of the Russian Federation in France',
-                            title:
-                                'International partnerships manager',
-                            city:
-                                'Paris',
-                            responsibilities:
-                                [
-                                    {
-                                        id: 1,
-                                        name: 'Operations management',
-                                        type: 'business',
-                                        data: 31,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Management of a 3-person team, responsible for OECD adhesion projects management',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 2,
-                                        name: 'Negotiations',
-                                        type: 'business',
-                                        data: 32,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Daily political and commercial negotiations with representatives of more than 150 countries',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 3,
-                                        name: 'Research and reporting',
-                                        type: 'business',
-                                        data: 33,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Collection of information, analysis of relevant legislation, reporting to the relevant ministries',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 4,
-                                        name: 'International treaties signed',
-                                        type: ['business', 'success'],
-                                        data: 34,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Participated in the negotiation of international treaties:'
-                                            },
-                                            {
-                                                icon: 'sublist',
-                                                content: '<li>Convention on Combating Bribery of Foreign Public Officials in International Business Transactions</li>' +
-                                                    '<li>Convention on Mutual Administrative Assistance in Tax Matters</li>',
-                                            },
-                                        ],
-                                    },
-                                ],
-                        },
-                        {
-                            id: 10,
                             logo:
                                 '/logo/bearingpoint.webp',
                             dates:
@@ -710,28 +385,22 @@ i18next
                                 [
                                     {
                                         id: 1,
-                                        type: 'tech',
-                                        data: 35,
+                                        type: null,
+                                        data: 14,
                                         name: 'SAP R/3 implementation',
                                         description: [
                                             {
-                                                icon: 'tech',
                                                 content: 'ERP system integration (SAP R/3)',
                                             },
                                             {
-                                                icon: 'business',
-                                                content: 'Harmonization of the operational processes of the oil company "Rosneft"',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Assistance during the acquisition offer of "British Petroleum"',
+                                                content: 'Harmonization of the operational processes for major energy client',
                                             },
                                         ],
                                     },
                                 ],
                         },
                         {
-                            id: 11,
+                            id: 6,
                             logo:
                                 '/logo/uralsib.webp',
                             dates:
@@ -746,13 +415,12 @@ i18next
                                 [
                                     {
                                         id: 1,
-                                        type: 'tech',
-                                        data: 36,
+                                        type: null,
+                                        data: 15,
                                         name: 'Business process mapping',
                                         description: [
                                             {
-                                                icon: 'business',
-                                                content: 'Business process mapping in the digital form (ARIS) to facilitate the integration of the ERP system',
+                                                content: 'Executed complex business process mapping (ARIS) for core banking system integrations',
                                             },
                                         ],
                                     },
@@ -849,11 +517,11 @@ i18next
                     },
                     firstname: 'Anton',
                     lastname: 'Cher',
-                    post: 'CTO / Engineering Manager',
+                    post: 'CTO Hands-on | VP Engineering ',
                     links: [
                         {
                             name: 'LinkedIn',
-                            url: 'https://www.linkedin.com/in/hrsart/',
+                            url: 'https://www.linkedin.com/in/anton-cher/',
                             icon: '/linkedin.webp',
                         },
                         {
@@ -868,23 +536,39 @@ i18next
                         },
                         {
                             name: 'Télécharger le CV',
-                            url: 'https://anton.eco/cv/CTO - Anton Cher FR.pdf',
+                            url: 'https://anton.eco/cv/Anton Cher FR.pdf',
                             icon: '/download.webp',
                         },
                     ],
+                    summary: "Fort d'une expérience de direction et d'une expertise technique approfondie, " +
+                        "j'accompagne les entreprises pour transformer leur product-market fit en réalité scalable. " +
+                        "Je maîtrise l'ensemble du cycle de vie du produit, de l'architecture initiale au déploiement.<p class='mt-2'>" +
+                        "Aussi à l'aise en comité de direction pour discuter P&L et stratégie qu'avec l'équipe technique pour architecturer des systèmes distribués ou réaliser des revues de code.\n",
                     experience: 'Expérience',
                     education: 'Formations',
                     skills: 'Compétences',
                     about: {
                         tech: {
-                            title: "Compétences",
-                            languages: ['PHP', 'Javascript', 'Typescript', 'Python', 'SQL', 'GraphQL', 'HTML', 'CSS'],
-                            love: ['Tinkerwell', 'Ray', 'Expose', 'Ngrok', 'PHPUnit', 'Pest', 'Cypress'],
-                            frameworks: ['Laravel', 'Nest.js', 'Livewire', 'FastAPI', 'Flask', 'Express.js', 'Vue.js', 'React', 'React Native', 'Inertia.js', 'Tailwind'],
-                            tools: ['IntelliJ Idea', 'PhpStorm', 'PyCharm', 'DataGrip', 'Git', 'Postman', 'Bruno', 'Figma', 'Docker', 'k8s'],
-                            crm: ['Hubspot', 'ClickUp', 'Trello', 'Asana', 'Jira'],
-                            sales: ['Waalaxy', 'CaptainData', 'BreakCold', 'LaGrowthMachine'],
-                            adobe: ['Photoshop', 'Illustrator', 'Lightroom', 'Premiere', 'After Effects'],
+                            title: 'Skills',
+                            tech: ['Python (FastAPI)',
+                                'TypeScript (React, Node.js)',
+                                'PHP (Laravel)',
+                                'AI/RAG & LangChain',
+                                'AWS & Kubernetes',
+                                'Docker & CI/CD',
+                                'Microservices',
+                                'PostgreSQL & Vector DBs'],
+                            business: ['Product Strategy',
+                                'Agile & Shape Up',
+                                'Team Leadership',
+                                'MVP-to-Scale',
+                                'Budget Management',
+                                'Stakeholder Management'],
+                            frameworks: [],
+                            tools: [],
+                            crm: [],
+                            sales: [],
+                            adobe: [],
                         },
                         languages: {
                             title: 'Langues',
@@ -974,61 +658,63 @@ i18next
                     jobs: [
                         {
                             id: 1,
-                            logo: '/logo/icemelter.webp',
-                            dates: '2025 - Présent',
-                            company: 'IceMelter',
-                            title: 'Fondateur',
+                            logo: ['/logo/calendize.webp', '/logo/legalcheck.webp', '/logo/friendstonight.webp', '/logo/icemelter.webp'],
+                            dates: '2024 - Présent',
+                            company: 'Interim CTO',
+                            title: '',
+                            summary: 'Partenaire technique pour startups Early-stage et développement de produits SaaS haute performance',
                             city: 'Paris',
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: "Roadmap technologique",
-                                    type: 'tech',
+                                    name: "Calendize",
+                                    subtitle: 'SaaS de planification',
+                                    type: null,
                                     data: 1,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Établi la roadmap technologique pour IceMelter, un jeu de cartes mobile/web qui aide les inconnus à devenir amis et à trouver des liens profonds',
+                                            content: 'Conception et lancement "de zéro au marché" d\'une application riche en fonctionnalités',
                                         },
                                         {
-                                            icon: 'business',
-                                            content: 'Défini la vision du produit, son architecture et son plan de livraison',
+                                            content: 'Mise en place de pipelines CI/CD pour une itération rapide et d\'une architecture scalable',
                                         },
                                     ],
                                 },
                                 {
                                     id: 2,
-                                    name: "Tech stack",
-                                    type: 'tech',
+                                    name: "LegalCheck",
+                                    subtitle: 'Assistant IA automatisé pour équipes juridiques, doté de fonctionnalités d\'analyse avancée et RAG',
+                                    type: null,
                                     data: 2,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Sélectionné et implementé la tech stack pour offrir une interactivité en temps réel et une architecture API évolutive',
+                                            content: 'Création et déploiement d\'une application web/mobile intégrant des fonctionnalités d\'IA avancées (RAG) pour l\'analyse juridique automatisée',
                                         },
                                     ],
                                 },
                                 {
                                     id: 3,
-                                    name: "CI/CD pipelines",
-                                    type: 'tech',
+                                    name: "Friends Tonight",
+                                    subtitle: 'Faciliter les connexions au sein des communautés internationales via une plateforme personnalisée',
+                                    type: null,
                                     data: 3,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Introduit des pipelines CI/CD pour permettre des itérations efficaces et une expansion future des fonctionnalités',
+                                            content: 'Développement et lancement d\'une application mobile cross-platform (iOS & Android) avec un backend robuste pour faciliter l\'organisation d\'événements locaux',
                                         },
                                     ],
                                 },
                                 {
                                     id: 4,
-                                    name: "Architecture",
-                                    type: ['tech', 'success'],
+                                    name: "IceMelter",
+                                    subtitle: 'Expérience de jeu de cartes cross-platform pour aider des inconnus à tisser des liens profonds',
+                                    type: null,
                                     data: 4,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: "Création de l'architecture de l'application avec un frontend React Native et Nest.js sur le backend",
+                                            content: "Définition de la roadmap technologique et de la vision produit",
+                                        },{
+                                            content: "Implémentation de l'infrastructure pour assurer l'engagement utilisateur et l'évolutivité future",
                                         },
                                     ],
                                 },
@@ -1036,61 +722,43 @@ i18next
                         },
                         {
                             id: 2,
-                            logo: '/logo/legalcheck.webp',
-                            dates: '2024 - Présent',
-                            company: 'LegalCheck',
-                            title: 'Co-fondateur',
+                            logo: '/logo/impactmaker.webp',
+                            dates: '2023 - 2024',
+                            company: 'ImpactMaker.ai',
+                            title: 'CTO',
+                            summary: "Supervision du cycle de vie complet du produit, du concept au MVP",
                             city: 'Paris',
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: "Roadmap technologique",
-                                    type: 'tech',
+                                    name: 'Creation du MVP',
+                                    type: null,
                                     data: 5,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Établi la roadmap technologique pour LegalCheck, un assistant IA automatisé pour les équipes juridiques',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Défini la vision du produit, son architecture et son plan de livraison',
+                                            content: 'Développement d\'un MVP en PHP/Laravel, incluant la refactorisation des algorithmes cœurs pour le traitement des données',
                                         },
                                     ],
                                 },
                                 {
                                     id: 2,
-                                    name: "Tech stack",
-                                    type: 'tech',
+                                    name: 'Gestion d\'équipe',
+                                    type: null,
                                     data: 6,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Sélectionné et implementé la tech stack pour offrir une interactivité en temps réel et une architecture API évolutive',
+                                            content: 'Constitution et management d\'une équipe Agile (3 ingénieurs, 1 designer) : mise en place des workflows pour assurer les livraisons dans les délais',
                                         },
                                     ],
                                 },
                                 {
                                     id: 3,
-                                    name: "CI/CD pipelines",
-                                    type: 'tech',
+                                    name: 'Validation du modèle économique',
+                                    type: null,
                                     data: 7,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Introduit des pipelines CI/CD pour permettre des itérations efficaces et une expansion future des fonctionnalités',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 4,
-                                    name: "Architecture",
-                                    type: ['tech', 'success'],
-                                    data: 8,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: "Création de l'architecture de l'application avec un frontend React Native et FastAPI sur le backend",
+                                            content: 'Onboarding réussi des premiers clients B2B et validation du modèle économique',
                                         },
                                     ],
                                 },
@@ -1098,49 +766,46 @@ i18next
                         },
                         {
                             id: 3,
-                            logo: '/logo/friendstonight.webp',
-                            dates: '2024 - Présent',
-                            company: 'Friends Tonight',
-                            title: 'Fondateur',
+                            logo: '/logo/globedreamers.webp',
+                            dates: '2019 - 2024',
+                            company: 'GlobeDreamers',
+                            title: 'CTO & Co-fondateur',
+                            summary: 'Pilotage de la vision technique et de l\'équipe d\'ingénierie pour une plateforme globale de crowdfunding',
                             city: 'Paris',
                             responsibilities: [
                                 {
                                     id: 1,
-                                    name: "Roadmap technologique",
-                                    type: 'tech',
-                                    data: 9,
+                                    name: 'Gestion d\'équipe',
+                                    type: null,
+                                    data: 8,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Établi la roadmap technologique pour Friends Tonight, une application de rencontre personnalisée pour les communautés internationales',
+                                            content: 'Direction d\'une équipe pluridisciplinaire de 18 personnes (Front, Back, QA, DevOps)'
                                         },
                                         {
-                                            icon: 'business',
-                                            content: 'Défini la vision du produit, son architecture et son plan de livraison',
+                                            content: 'Implémentation des méthodologies Agile/Scrum et Shape Up',
                                         },
                                     ],
                                 },
                                 {
                                     id: 2,
-                                    name: "Tech stack",
-                                    type: 'tech',
-                                    data: 10,
+                                    name: 'Migration d\'architecture',
+                                    type: null,
+                                    data: 9,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: 'Sélectionné et implementé la tech stack pour offrir une interactivité en temps réel et une architecture API évolutive',
+                                            content: 'Migration d\'un système monolithique hérité vers une architecture microservices moderne (Laravel/React/AWS), générant une augmentation de 300% de la stabilité et des performances',
                                         },
                                     ],
                                 },
                                 {
                                     id: 3,
-                                    name: "Architecture",
-                                    type: ['tech', 'success'],
-                                    data: 11,
+                                    name: 'Stratégie business',
+                                    type: null,
+                                    data: 10,
                                     description: [
                                         {
-                                            icon: 'tech',
-                                            content: "Création de l'architecture de l'application avec un frontend Flutter et Express.js sur le backend",
+                                            content: 'Collaboration directe avec le CEO sur la stratégie de levée de fonds, traduisant les exigences des investisseurs en milestones techniques',
                                         },
                                     ],
                                 },
@@ -1148,385 +813,56 @@ i18next
                         },
                         {
                             id: 4,
-                            logo: '/logo/calendize.webp',
-                            dates: '2024 - Présent',
-                            company: 'Calendize.it',
-                            title: 'Fondateur',
-                            city: 'Paris',
-                            responsibilities: [
-                                {
-                                    id: 1,
-                                    name: "Roadmap technologique",
-                                    type: 'tech',
-                                    data: 12,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Établi la roadmap technologique pour Calendize, un projet micro-SaaS, afin d’optimiser les workflows de planification.',
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Défini la vision du produit, son architecture et son plan de livraison.',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 2,
-                                    name: "Tech stack",
-                                    type: 'tech',
-                                    data: 13,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Sélectionné et implementé la tech stack pour offrir une interactivité en temps réel et une architecture API évolutive',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 3,
-                                    name: "Pipelines CI/CD",
-                                    type: 'tech',
-                                    data: 14,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Introduit des pipelines CI/CD pour permettre des itérations efficaces et une expansion future des fonctionnalités',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 4,
-                                    name: "Architecture",
-                                    type: ['tech', 'success'],
-                                    data: 15,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Construit une base solide pour les évolutions à venir, en assurant une collaboration fluide avec les premiers utilisateurs.',
-                                        },
-                                    ],
-                                },
-                            ],
+                            logo:
+                                ['/logo/oecd.webp', '/logo/trade-delegation.webp', '/logo/expo.webp'],
+                            dates:
+                                '2010 - 2019',
+                            company:
+                                'Organisations internationales',
+                            title:
+                                'Tech-driven Leadership & Operations',
+                            summary: "Postes « C-level » dans le développement international et les opérations stratégiques",
+                            city:
+                                'Paris',
+                            responsibilities:
+                                [
+                                    {
+                                        id: 1,
+                                        name: 'Gestion des opérations',
+                                        type: null,
+                                        data: 11,
+                                        description: [
+                                            {
+                                                content: 'Gestion d\'un budget de plus de 20 M€ et direction d\'une équipe de 15 personnes',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 2,
+                                        name: 'Modernisation des systèmes de reporting',
+                                        type: null,
+                                        data: 12,
+                                        description: [
+                                            {
+                                                content: 'Pilotage de la modernisation des systèmes de reporting et automatisation des processus administratifs manuels',
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        id: 3,
+                                        name: 'Négotiations et partenariats C-level',
+                                        type: null,
+                                        data: 13,
+                                        description: [
+                                            {
+                                                content: 'Gestion des relations institutionnelles (gouvernements et entreprises dans +150 pays), renforçant ma capacité à négocier avec des interlocuteurs C-level',
+                                            },
+                                        ],
+                                    },
+                                ],
                         },
                         {
                             id: 5,
-                            logo: '/logo/impactmaker.webp',
-                            dates: '2023 - 2024',
-                            company: 'ImpactMaker.ai',
-                            title: 'CTO, Co-fondateur',
-                            city: 'Paris',
-                            responsibilities: [
-                                {
-                                    id: 1,
-                                    name: 'Architecture',
-                                    type: 'tech',
-                                    data: 16,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Conçu l’architecture d’un chatbot en temps réel basé sur OpenAI, avec une tech stack pensée pour garantir performance et évolutivité',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Stack utilisée: Vue.js, Tailwind CSS avec API Laravel connecté via websockets)',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 2,
-                                    name: 'Gestion d\'équipe',
-                                    type: 'business',
-                                    data: 17,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Monté et encadré une petite équipe de développeurs performants, en définissant des workflows et les processus clairs pour livrer le MVP dans les délais définis',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 3,
-                                    name: 'Supervision du développement full-stack',
-                                    type: ['business', 'success'],
-                                    data: 18,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Transformé les besoins d’entreprise en solutions concrètes, supervisé le développement full-stack et livré un produit qui booste l’engagement des utilisateurs et l’impact des entreprises',
-                                        },
-                                    ],
-                                },
-                            ],
-                        },
-                        {
-                            id: 6,
-                            logo: '/logo/globedreamers.webp',
-                            dates: '2019 - 2024',
-                            company: 'GlobeDreamers',
-                            title: 'CTO, Co-fondateur',
-                            city: 'Paris',
-                            responsibilities: [
-                                {
-                                    id: 1,
-                                    name: 'Gestion de la croissance',
-                                    type: ['business', 'success'],
-                                    data: 19,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Fait évoluer l’entreprise sur cinq ans, en augmentant les fonds levés de 1700%, passant de 72000€ à 1300000€.'
-                                        },
-                                        {
-                                            icon: 'business',
-                                            content: 'Croissance de la base d’utilisateurs de la plateforme de 350%, de 4000 à plus de 14000 utilisateurs actifs.',
-                                        },
-                                        {
-                                            icon: 'tech',
-                                            content: 'Agrandi l’effectif de l’équipe technique de 2 à 18.',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 2,
-                                    name: 'Implémentation Agile and Shape Up',
-                                    type: 'business',
-                                    data: 20,
-                                    description: [
-                                        {
-                                            icon: 'business',
-                                            content: 'Mis en place les méthodologies Agile et Shape Up, optimisant les workflows et accélérant la livraison des fonctionnalités principales, ce qui a contribué à l’adoption et l’engagement sur la plateforme',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 3,
-                                    name: 'Fonctionnalités IA',
-                                    type: ['tech', 'success'],
-                                    data: 21,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Intégré des fonctionnalités basées sur l’IA, améliorant la plateforme et attirant de nouveaux partenaires corporatifs, faisant passer le nombre total de partenariats de 90 à plus de 800',
-                                        },
-                                    ],
-                                },
-                                {
-                                    id: 4,
-                                    name: 'Tech stack',
-                                    type: 'tech',
-                                    data: 22,
-                                    description: [
-                                        {
-                                            icon: 'tech',
-                                            content: 'Modernisé la tech stack grâce à un refactoring approfondi du code, une optimisation de l’API et la mise en place de pipelines CI/CD, réduisant les coûts opérationnels et améliorant la scalabilité et les performances',
-                                        },
-                                    ],
-                                },
-                            ],
-                        },
-                        {
-                            id: 7,
-                            logo:
-                                '/logo/expo.webp',
-                            dates:
-                                '2017 - 2019',
-                            company:
-                                'Comité de candidature de Russie pour l\'EXPO 2025',
-                            title:
-                                'Directeur du développement international',
-                            city:
-                                'Paris',
-                            responsibilities:
-                                [
-                                    {
-                                        id: 1,
-                                        name: 'Gestion des opérations',
-                                        type: 'business',
-                                        data: 23,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Piloté la stratégie internationale pour la candidature de la Russie à l’Expo 2025, en gérant une équipe de 12 à Paris.',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Responsable de rayonnement global, négocié des partenariats avec des représentants de 170 pays.',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 2,
-                                        name: 'Stratégie de développement',
-                                        type: 'business',
-                                        data: 24,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Développé et exécuté une stratégie complète tout en gérant un budget de 20 M€, avec un suivi précis des KPI pour assurer les résultats',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 3,
-                                        name: 'Négotiations et partenariats',
-                                        type: ['business', 'success'],
-                                        data: 25,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Établi des partenariats stratégiques clés et négocié des accords majeurs avec des acteurs internationaux',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 4,
-                                        name: 'Gestion de l\'équipe',
-                                        type: 'business',
-                                        data: 26,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Favorisé la collaboration au sein de l’équipe et rationalisé les opérations pour livrer des résultats dans des délais serrés, démontrant une grande capacité d’adaptation et un leadership solide sous pression dans des contextes internationaux',
-                                            },
-                                        ],
-                                    },
-                                ],
-                        },
-                        {
-                            id: 8,
-                            logo:
-                                '/logo/trade-delegation.webp',
-                            dates:
-                                '2012 - 2017',
-                            company:
-                                'Délégation Économique de Russie en France',
-                            title:
-                                'Directeur adjoint de la division commerciale',
-                            city:
-                                'Paris',
-                            responsibilities:
-                                [
-                                    {
-                                        id: 1,
-                                        name: 'Gestion des opérations',
-                                        type: 'business',
-                                        data: 27,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Géré une division de 15 personnes, chargée de conseiller les cadres des entreprises russes et françaises dans leurs stratégies de développement international',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 2,
-                                        name: 'Performance de l\'équipe',
-                                        type: ['business', 'success'],
-                                        data: 28,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Mis en place et optimisé des processus de coordination d’équipe et de priorisation des projets, améliorant l’efficacité et permettant à la division de dépasser ses objectifs de 260 % en valeur de contrats signés (130 M€ contre un objectif de 50 M€)',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 3,
-                                        name: 'Gestion de l\'équipe',
-                                        type: 'business',
-                                        data: 29,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Encadré et responsabilisé les membres de l’équipe pour améliorer leurs performances et atteindre leurs objectifs, tout en instaurant une culture d’excellence et de l’entraide',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        name: 'Partenariats strategiques',
-                                        id: 4,
-                                        type: ['business', 'success'],
-                                        data: 30,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Supervisé les partenariats stratégiques et les efforts de développement de marché, facilitant la signature de 86 nouveaux contrats internationaux dans des secteurs comme l’aviation, l’informatique, l’énergie et la sécurité publique',
-                                            },
-                                        ],
-                                    },
-                                ],
-                        },
-                        {
-                            id: 9,
-                            logo:
-                                '/logo/trade-delegation.webp',
-                            dates:
-                                '2010 - 2012',
-                            company:
-                                'Délégation Économique de Russie en France',
-                            title:
-                                'Responsable des partenariats internationaux',
-                            city:
-                                'Paris',
-                            responsibilities:
-                                [
-                                    {
-                                        id: 1,
-                                        name: 'Gestion des opérations',
-                                        type: 'business',
-                                        data: 31,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Management de l’équipe de 3 personnes, chargée de gestion des projets d’adhésion à l’OCDE',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 2,
-                                        name: 'Négotiations',
-                                        type: 'business',
-                                        data: 32,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Négociations politiques et commerciales quotidiennes avec les représentants de plus de 150 pays',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 3,
-                                        name: 'Recherche et reporting',
-                                        type: 'business',
-                                        data: 33,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Collecte d’information, analyse de législation pertinente, reporting auprès des ministères',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        id: 4,
-                                        name: 'Traités internationaux signés',
-                                        type: ['business', 'success'],
-                                        data: 34,
-                                        description: [
-                                            {
-                                                icon: 'business',
-                                                content: 'Participation à la négociation de traités internationaux :'
-                                            },
-                                            {
-                                                icon: 'sublist',
-                                                content: '<li>Convention on Combating Bribery of Foreign Public Officials in International Business Transactions</li>' +
-                                                    '<li>Convention on Mutual Administrative Assistance in Tax Matters</li>',
-                                            },
-                                        ],
-                                    },
-                                ],
-                        },
-                        {
-                            id: 10,
                             logo:
                                 '/logo/bearingpoint.webp',
                             dates:
@@ -1541,28 +877,21 @@ i18next
                                 [
                                     {
                                         id: 1,
-                                        type: 'tech',
-                                        data: 35,
+                                        data: 14,
                                         name: 'Implémentation de SAP R/3',
                                         description: [
                                             {
-                                                icon: 'tech',
-                                                content: 'ERP system intégration (SAP R/3)',
+                                                content: 'Intégration du système ERP (SAP R/3)',
                                             },
                                             {
-                                                icon: 'business',
-                                                content: 'Harmonisation des processus opérationnels de l\'entreprise pétroliere “Rosneft”',
-                                            },
-                                            {
-                                                icon: 'business',
-                                                content: 'Préparation d’offre d’acquisition de "British Petroleum"',
+                                                content: 'Harmonisation des processus opérationnels pour un client majeur du secteur de l\'énergie',
                                             },
                                         ],
                                     },
                                 ],
                         },
                         {
-                            id: 11,
+                            id: 6,
                             logo:
                                 '/logo/uralsib.webp',
                             dates:
@@ -1577,13 +906,11 @@ i18next
                                 [
                                     {
                                         id: 1,
-                                        type: 'tech',
-                                        data: 36,
+                                        data: 15,
                                         name: 'Mapping de processus opérationnels',
                                         description: [
                                             {
-                                                icon: 'business',
-                                                content: 'Mise en correspondance de processus opérationnels dans la forme digitale (ARIS) pour faciliter l’intégration du système ERP (SAP/R3)',
+                                                content: 'Cartographie complexe des processus métier  (ARIS) pour l\'intégration de systèmes Core Banking',
                                             },
                                         ],
                                     },

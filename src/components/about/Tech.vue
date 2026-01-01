@@ -26,25 +26,31 @@ const getBackground = (level) => {
 <template>
   <div class="mb-5 grid w-full grid-cols-1 blurbox font-bold pb-5">
     <p class="text-2xl font-bold my-5 px-5">{{ tech.title }}</p>
-    <div class="m-auto flex flex-wrap w-3/5 gap-x-5 gap-y-3 my-2 place-content-center">
+    <div
+        v-if="tech.tech && tech.tech.length > 0"
+        class="m-auto flex flex-wrap w-3/5 gap-x-5 gap-y-3 my-2 place-content-center">
       <div
-          v-for="(language, index) in tech.languages" :key="index"
-          class="bg-red-600 rounded-full w-fit px-3 py-1 text-base"
+          v-for="(skill, index) in tech.tech" :key="index"
+          class="bg-yellow-600 rounded-full w-fit px-3 py-1 text-base"
       >
-        {{ language }}
+        {{ skill }}
       </div>
     </div>
 
-    <div class="m-auto flex flex-wrap w-3/5 gap-x-5 gap-y-3 my-2 place-content-center">
+    <div
+        v-if="tech.business && tech.business.length > 0"
+        class="m-auto flex flex-wrap w-3/5 gap-x-5 gap-y-3 my-2 place-content-center">
       <div
-          v-for="(framework, index) in tech.frameworks" :key="index"
-          class="bg-orange-600 rounded-full w-fit px-3 py-1 text-base"
+          v-for="(skill, index) in tech.business" :key="index"
+          class="bg-blue-600 rounded-full w-fit px-3 py-1 text-base"
       >
-        {{ framework }}
+        {{ skill }}
       </div>
     </div>
 
-    <div class="m-auto flex flex-wrap w-4/5 gap-x-5 gap-y-3 my-2 place-content-center">
+    <div
+        v-if="tech.love && tech.love.length > 0"
+        class="m-auto flex flex-wrap w-4/5 gap-x-5 gap-y-3 my-2 place-content-center">
       <div
           v-for="(love, index) in tech.love" :key="index"
           class="bg-yellow-600 rounded-full w-fit px-3 py-1 text-base"
@@ -53,7 +59,9 @@ const getBackground = (level) => {
       </div>
     </div>
 
-    <div class="m-auto flex flex-wrap w-3/5 gap-x-5 gap-y-3 my-2 place-content-center">
+    <div
+        v-if="tech.tools && tech.tools.length > 0"
+        class="m-auto flex flex-wrap w-3/5 gap-x-5 gap-y-3 my-2 place-content-center">
       <div
           v-for="(tool, index) in tech.tools" :key="index"
           class="bg-green-600 rounded-full w-fit px-3 py-1 text-base"
@@ -62,7 +70,9 @@ const getBackground = (level) => {
       </div>
     </div>
 
-    <div class="m-auto flex flex-wrap w-4/5 gap-x-5 gap-y-3 my-2 place-content-center">
+    <div
+        v-if="tech.crm && tech.crm.length > 0"
+        class="m-auto flex flex-wrap w-4/5 gap-x-5 gap-y-3 my-2 place-content-center">
         <div
             v-for="(crm, index) in tech.crm" :key="index"
             class="bg-blue-600 rounded-full w-fit px-3 py-1 text-base"
@@ -71,7 +81,9 @@ const getBackground = (level) => {
         </div>
     </div>
 
-    <div class="m-auto flex flex-wrap w-4/5 gap-x-5 gap-y-3 my-2 place-content-center">
+    <div
+        v-if="tech.sales && tech.sales.length > 0"
+        class="m-auto flex flex-wrap w-4/5 gap-x-5 gap-y-3 my-2 place-content-center">
         <div
             v-for="(sales, index) in tech.sales" :key="index"
             class="bg-blue-800 rounded-full w-fit px-3 py-1 text-base"

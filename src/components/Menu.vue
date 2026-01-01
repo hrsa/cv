@@ -14,14 +14,20 @@ const {i18next, t} = useTranslation();
     <LanguageSwitch class="pt-5"/>
     <div class="flex flex-col sm:flex-row gap-2 sm:gap-10 justify-between w-full">
       <div class="flex flex-col gap-5 place-self-center p-3 sm:p-10 justify-center order-2">
-        <h1 class="text-2xl sm:text-4xl ">{{ t('firstname') }} {{ t('lastname') }}</h1>
-        <h2 class="text-2xl sm:text-3xl">{{ t('post') }}</h2>
         <div class="flex gap-5 justify-around">
           <div v-for="link in t('links', {returnObjects: true})" :key="link.name">
             <a :href="link.url" target="_blank" rel="noopener noreferrer" @click="sendMessage('clicked on ' + link.name)">
               <img :alt="link.name" :src="link.icon" class="size-10"/>
             </a>
           </div>
+        </div>
+        <h1 class="text-4xl sm:text-4xl ">{{ t('firstname') }} {{ t('lastname') }}</h1>
+        <h2 class="text-2xl sm:text-3xl">{{ t('post') }}</h2>
+        <div
+            v-if="t('summary')"
+            class="text-lg font-bold text-justify mt-5"
+            v-html="t('summary')"
+        >
         </div>
       </div>
       <img src="/photo.webp" alt="photo" class="size-32 sm:size-64 p-3  sm:p-10 rounded-full order-1 sm:order-2 self-center"/>

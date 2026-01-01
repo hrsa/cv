@@ -11,7 +11,7 @@ const languages = t('about.languages', {returnObjects: true});
 </script>
 
 <template>
-  <div>
+  <div class="cursor-default">
     <Tech />
     <Languages />
   </div>
