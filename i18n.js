@@ -18,7 +18,7 @@ i18next
                     },
                     firstname: 'Anton',
                     lastname: 'Cher',
-                    post: 'Hands-on CTO | VP of Engineering',
+                    post: 'Applied AI at Mistral',
                     links: [
                         {
                             name: 'LinkedIn',
@@ -158,9 +158,101 @@ i18next
                     },
                     jobs: [
                         {
+                            id: 7,
+                            logo: '/logo/mistral.webp',
+                            dates: '2026 - Present',
+                            company: 'Mistral AI',
+                            title: 'Applied AI',
+                            city: 'Paris',
+                            summary: 'Delivering production-grade AI applications for strategic customers on Mistral frontier models',
+                            responsibilities: [
+                                {
+                                    id: 1,
+                                    name: 'Customer AI delivery',
+                                    subtitle: 'End-to-end delivery for a strategic insurance account',
+                                    type: null,
+                                    data: 16,
+                                    description: [
+                                        {
+                                            icon: null,
+                                            content: 'Lead end-to-end delivery of an AI advisor assistant for a leading insurer: from discovery workshops and solution design to a production-grade POC',
+                                        },
+                                        {
+                                            icon: null,
+                                            content: 'Run the delivery cadence with the customer: daily stand-ups, build-room sessions, specification workshops, sprint and steering preparation, up to the demo milestone',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 2,
+                                    name: 'Multimodal AI features',
+                                    subtitle: 'Speech, document intelligence and structured output on Mistral models',
+                                    type: null,
+                                    data: 17,
+                                    description: [
+                                        {
+                                            icon: null,
+                                            content: 'Build the live advisor experience: client meeting preparation, real-time interview support with speech-to-text (Voxtral), coverage-gap analysis and automated follow-up material',
+                                        },
+                                        {
+                                            icon: null,
+                                            content: 'Extract structured client facts from insurance documents with Mistral OCR, integrated with CRM and DMS data around Mistral Medium 3.5 as the core LLM',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 3,
+                                    name: 'Agents, connectors & guardrails',
+                                    subtitle: 'MCP connectors, workflows, evaluation and security',
+                                    type: null,
+                                    data: 18,
+                                    description: [
+                                        {
+                                            icon: null,
+                                            content: 'Develop agent workflows and custom on-prem connectors (FastMCP, OIDC/OAuth) bridging the AI stack with customer systems',
+                                        },
+                                        {
+                                            icon: null,
+                                            content: 'Define guardrails and evaluation frameworks, including simulated-interview testing, to keep outputs reliable in production',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 4,
+                                    name: 'Secure enterprise deployment',
+                                    subtitle: 'Kubernetes, SSO and compliance',
+                                    type: null,
+                                    data: 19,
+                                    description: [
+                                        {
+                                            icon: null,
+                                            content: 'Architect the customer-hosted deployment on Kubernetes (AKS): Helm, GitLab CI/CD, Postgres/pgvector, secret management and phased dev/non-prod/prod rollout',
+                                        },
+                                        {
+                                            icon: null,
+                                            content: 'Own security and compliance requirements: Entra ID SSO, audit logging, data retention, consent and DPO review',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 5,
+                                    name: 'Internal AI automation',
+                                    subtitle: 'Internal agent for delivery operations',
+                                    type: null,
+                                    data: 20,
+                                    description: [
+                                        {
+                                            icon: null,
+                                            content: 'Built and rolled out an internal automation agent on Mistral workflows and managed deployments: LLM-based data quality checks, notification integrations and workflow automation, with logging and testing through to production',
+                                        },
+                                    ],
+                                },
+                            ],
+                        },
+                        {
                             id: 1,
                             logo: ['/logo/calendize.webp', '/logo/legalcheck.webp', '/logo/friendstonight.webp', '/logo/icemelter.webp'],
-                            dates: '2024 - Present',
+                            dates: '2024 - 2026',
                             company: 'Interim CTO',
                             title: '',
                             city: 'Paris',
@@ -517,7 +609,7 @@ i18next
                     },
                     firstname: 'Anton',
                     lastname: 'Cher',
-                    post: 'CTO Hands-on | VP Engineering ',
+                    post: 'Applied AI chez Mistral',
                     links: [
                         {
                             name: 'LinkedIn',
@@ -657,9 +749,101 @@ i18next
                     },
                     jobs: [
                         {
+                            id: 7,
+                            logo: '/logo/mistral.webp',
+                            dates: '2026 - Présent',
+                            company: 'Mistral AI',
+                            title: 'Applied AI',
+                            summary: 'Livrer des applications IA de niveau production pour des clients stratégiques sur les modèles frontier de Mistral',
+                            city: 'Paris',
+                            responsibilities: [
+                                {
+                                    id: 1,
+                                    name: 'Livraison IA client',
+                                    subtitle: 'Delivery de bout en bout pour un client stratégique de l\'assurance',
+                                    type: null,
+                                    data: 16,
+                                    description: [
+                                        {
+                                            icon: null,
+                                            content: 'Piloter de bout en bout le delivery d\'un assistant IA de conseil pour un assureur de premier plan : des ateliers de découverte et de la conception de la solution jusqu\'à un POC de niveau production',
+                                        },
+                                        {
+                                            icon: null,
+                                            content: 'Animer la cadence de livraison avec le client : stand-ups quotidiens, sessions build-room, ateliers de spécification, préparation des sprints et des comités de pilotage, jusqu\'au jalon de démo',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 2,
+                                    name: 'Fonctionnalités IA multimodales',
+                                    subtitle: 'Speech, intelligence documentaire et sortie structurée sur les modèles Mistral',
+                                    type: null,
+                                    data: 17,
+                                    description: [
+                                        {
+                                            icon: null,
+                                            content: 'Construire l\'expérience conseiller en direct : préparation des rendez-vous clients, support d\'interview en temps réel avec speech-to-text (Voxtral), analyse des lacunes de couverture et matériel de suivi automatisé',
+                                        },
+                                        {
+                                            icon: null,
+                                            content: 'Extraire des faits clients structurés de documents d\'assurance avec Mistral OCR, intégrés aux données CRM et DMS autour de Mistral Medium 3.5 comme LLM principal',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 3,
+                                    name: 'Agents, connecteurs & garde-fous',
+                                    subtitle: 'Connecteurs MCP, workflows, évaluation et sécurité',
+                                    type: null,
+                                    data: 18,
+                                    description: [
+                                        {
+                                            icon: null,
+                                            content: 'Développer des workflows d\'agents et des connecteurs on-prem sur mesure (FastMCP, OIDC/OAuth) reliant la stack IA aux systèmes du client',
+                                        },
+                                        {
+                                            icon: null,
+                                            content: 'Définir les garde-fous et les frameworks d\'évaluation, dont des tests d\'interview simulés, pour des sorties fiables en production',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 4,
+                                    name: 'Déploiement entreprise sécurisé',
+                                    subtitle: 'Kubernetes, SSO et conformité',
+                                    type: null,
+                                    data: 19,
+                                    description: [
+                                        {
+                                            icon: null,
+                                            content: 'Architecturer le déploiement chez le client sur Kubernetes (AKS) : Helm, CI/CD GitLab, Postgres/pgvector, gestion des secrets et rollout progressif dev/non-prod/prod',
+                                        },
+                                        {
+                                            icon: null,
+                                            content: 'Porter les exigences de sécurité et de conformité : SSO Entra ID, journaux d\'audit, rétention des données, consentement et revue DPO',
+                                        },
+                                    ],
+                                },
+                                {
+                                    id: 5,
+                                    name: 'Automatisation IA interne',
+                                    subtitle: 'Un agent interne pour les opérations de delivery',
+                                    type: null,
+                                    data: 20,
+                                    description: [
+                                        {
+                                            icon: null,
+                                            content: 'Construit et mis en production un agent d\'automatisation interne sur les workflows Mistral et les déploiements managés : contrôles qualité des données par LLM, intégrations de notification et automatisation de workflows, avec logging et tests jusqu\'à la production',
+                                        },
+                                    ],
+                                },
+                            ],
+                        },
+                        {
                             id: 1,
                             logo: ['/logo/calendize.webp', '/logo/legalcheck.webp', '/logo/friendstonight.webp', '/logo/icemelter.webp'],
-                            dates: '2024 - Présent',
+                            dates: '2024 - 2026',
                             company: 'Interim CTO',
                             title: '',
                             summary: 'Partenaire technique pour startups Early-stage et développement de produits SaaS haute performance',
